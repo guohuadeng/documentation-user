@@ -50,8 +50,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Odoo'
-copyright = u'2015-TODAY, Odoo S.A.'
+project = u'Odoo12 用户手册（广州尚鹏 http://www.sunpop.cn 整理）'
+copyright = u'Sunpop.cn'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
