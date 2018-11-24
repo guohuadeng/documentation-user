@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-07 15:38+0100\n"
+"POT-Creation-Date: 2018-11-24 17:24+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -979,6 +979,7 @@ msgstr ""
 
 #: ../../accounting/bank/setup/create_bank_account.rst:0
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
+#: ../../accounting/others/configuration/account_type.rst:0
 msgid "Type"
 msgstr ""
 
@@ -4270,6 +4271,42 @@ msgstr ""
 
 #: ../../accounting/others/configuration/account_type.rst:75
 msgid "To create a new accounts, go to the Accounting application. Open the menu :menuselection:`Adviser --> Chart of Accounts`, the click on the **Create** button."
+msgstr ""
+
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "Account Type is used for information purpose, to generate country-specific legal reports, and set the rules to close a fiscal year and generate opening entries."
+msgstr ""
+
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "Tags"
+msgstr ""
+
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "Optional tags you may want to assign for custom reporting"
+msgstr ""
+
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "Account Currency"
+msgstr ""
+
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "Forces all moves for this account to have this account currency."
+msgstr ""
+
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "Internal Type"
+msgstr ""
+
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "The 'Internal Type' is used for features available on different types of accounts: liquidity type is for cash or bank accounts, payable/receivable is for vendor/customer accounts."
+msgstr ""
+
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "Allow Reconciliation"
+msgstr ""
+
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "Check this box if this account allows invoices & payments matching of journal items."
 msgstr ""
 
 #: ../../accounting/others/configuration/account_type.rst:86
