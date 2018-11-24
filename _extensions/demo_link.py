@@ -99,7 +99,7 @@ class Action(Directive):
         external_id = self.arguments[0]
         text = "action button"
         node = nodes.reference(
-            refuri='https://demo.odoo.com?{}'.format(werkzeug.urls.url_encode({
+            refuri='https://demo.odooapp.cn?{}'.format(werkzeug.urls.url_encode({
                 'module': external_id
             })),
             classes=['btn', 'btn-primary', 'btn-lg', 'btn-block', 'center-block']
@@ -134,7 +134,7 @@ def _submit(result_queue, xid, view='form'):
 
 def _launcher():
     try:
-        info = xmlrpclib.ServerProxy('https://demo.odoo.com/start').start()
+        info = xmlrpclib.ServerProxy('https://demo.odooapp.cn/start').start()
     except xmlrpclib.Fault as e:
         threading.Thread(
             target=_fault_requests,

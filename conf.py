@@ -297,10 +297,10 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 odoo_cover_external = {
-    'https://odoo.com/documentation/user/accounting/overview/main_concepts/memento.html'   : 'banners/m_accounting.jpg',
-    'https://odoo.com/documentation/user/inventory/overview/concepts/double-entry.html' : 'banners/m_1.jpg',
-    'https://odoo.com/documentation/user/inventory/management/reporting/valuation_methods_continental.html'    : 'banners/m_2.jpg',
-    'https://odoo.com/documentation/user/inventory/management/reporting/valuation_methods_anglo_saxon.html'    : 'banners/m_2.jpg',
+    '/documentation/user/accounting/overview/main_concepts/memento.html'   : 'banners/m_accounting.jpg',
+    '/documentation/user/inventory/overview/concepts/double-entry.html' : 'banners/m_1.jpg',
+    '/documentation/user/inventory/management/reporting/valuation_methods_continental.html'    : 'banners/m_2.jpg',
+    '/documentation/user/inventory/management/reporting/valuation_methods_anglo_saxon.html'    : 'banners/m_2.jpg',
 }
 
 github_user = 'odoo'
@@ -310,16 +310,10 @@ github_project = 'documentation-user'
 locale_dirs = ['locale/']
 
 LANGUAGES = {
-    'de': 'German',
     'en': 'English',
-    'es': 'Spanish',
-    'fr': 'French',
-    'hr': 'Croatian',
-    'nl': 'Dutch',
-    'pt_BR': 'Portuguese (BR)',
-    'uk': 'Ukrainian',
-    'zh_CN': 'Chinese',
+    'zh_CN': u'简体中文Chinese',
 }
+LANGUAGE = 'zh_CN'
 
 def setup(app):
     app.add_stylesheet('accounting.css')
@@ -338,7 +332,7 @@ def setup(app):
     app.add_javascript('coa-valuation-continental.js')
     app.add_javascript('coa-valuation-anglo-saxon.js')
 
-    app.add_config_value('canonical_root', None, 'env')
+    app.add_config_value('canonical_root', '/documentation/user/', 'env')
 
     app.connect('html-page-context', analytics)
     app.add_config_value('google_analytics_key', '', 'env')
