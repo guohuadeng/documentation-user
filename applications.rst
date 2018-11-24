@@ -16,7 +16,9 @@ Applications
    manufacturing
    point_of_sale
    project
+   helpdesk
+   livechat/livechat
    expense/expense
    general
-..   expenses
-..   recruitment
+   iot
+   mobile/firebase

@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
+# This file is distributed under the same license as the Odoo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Business 10.0\n"
+"Project-Id-Version: Odoo 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-07 09:30+0200\n"
+"POT-Creation-Date: 2018-10-19 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Gunther Clauwaert <gclauwae@hotmail.com>, 2017\n"
+"Last-Translator: Pol Van Dingenen <pol.vandingenen@vanroey.be>, 2018\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +59,10 @@ msgid ""
 "them bigger, add a ribbon that you can edit (Sale, New, etc.). Open the Shop"
 " page, switch to Edit mode and click any item to start customizing the grid."
 msgstr ""
+"Verhoog de zichtbaarheid van uw Ster / Promotie artikelen: zet ze bovenaan, "
+"maak ze groter, voeg een lint toe dat u kan wijzigen (Uitverkoop, Nieuw, "
+"enz). Open de shop pagina, wissel naar de bewerkingsmodus en klik op eender "
+"welk item om het raster aan te passen."
 
 #: ../../ecommerce/getting_started/catalog.rst:26
 msgid ""
@@ -80,6 +84,11 @@ msgid ""
 "Product Description, Add to Cart, List View (to display product description "
 "better)."
 msgstr ""
+"Als je klanten veel items tegelijk kopen, maak dan hun proces korter door "
+"aankopen vanaf de catalogus pagina in te schakelen. Om dit te doen, voeg een"
+" product omschrijving toe en voeg de knop 'voeg toe aan winkelwagen' toe. "
+"Zet volgende opties op in het *Bewerk* menu: Product omschrijving, Voeg toe "
+"aan winkelwagen, lijstweergave (om de product omschrijving beter te tonen)."
 
 #: ../../ecommerce/getting_started/product_page.rst:3
 msgid "How to build a product page"
@@ -192,7 +201,7 @@ msgstr ""
 
 #: ../../ecommerce/managing_products/stock.rst:22
 msgid "This tool does not require the Inventory app to be installed."
-msgstr ""
+msgstr "Deze tool vereist niet dat de voorraad module geïnstalleerd is."
 
 #: ../../ecommerce/managing_products/stock.rst:25
 msgid ""
@@ -227,6 +236,8 @@ msgstr ""
 #: ../../ecommerce/managing_products/variants.rst:20
 msgid "Select a product from the Products list, go to the *Variants* tab."
 msgstr ""
+"Selecteer een product vanuit de productenlijst, ga naar het *Varianten* "
+"tabblad."
 
 #: ../../ecommerce/managing_products/variants.rst:22
 msgid ""
@@ -299,12 +310,16 @@ msgid ""
 "The Price Extra is added to the product price whenever the corresponding "
 "attribute value is selected."
 msgstr ""
+"De extra prijs wordt toegevoegd aan de productprijs wanneer de "
+"overeenkomende attribuut waarde geselecteerd is."
 
 #: ../../ecommerce/managing_products/variants.rst:76
 msgid ""
 "Pricelist formulas let you set advanced price computation methods for "
 "product variants. See :doc:`../maximizing_revenue/pricing`."
 msgstr ""
+"Prijslijst formules laten u toe om geavanceerde prijsberekeningen te doen "
+"voor product varianten. Zie :doc:`../maximizing_revenue/pricing`."
 
 #: ../../ecommerce/managing_products/variants.rst:80
 msgid "How to disable/archive variants"
@@ -349,7 +364,7 @@ msgstr ""
 
 #: ../../ecommerce/maximizing_revenue/cross_selling.rst:12
 msgid "Accessory products when checking out"
-msgstr ""
+msgstr "Product accessoires op de check-out pagina"
 
 #: ../../ecommerce/maximizing_revenue/cross_selling.rst:14
 msgid ""
@@ -362,6 +377,8 @@ msgstr ""
 #: ../../ecommerce/maximizing_revenue/cross_selling.rst:20
 msgid "Select accessories in the *Sales* tab of the product detail page."
 msgstr ""
+"Selecteer optionele items in het *Verkopen* tabblad van de product detail "
+"pagina."
 
 #: ../../ecommerce/maximizing_revenue/cross_selling.rst:26
 msgid ""
@@ -403,6 +420,8 @@ msgstr ""
 msgid ""
 "The quantity of optional items added to cart is the same than the main item."
 msgstr ""
+"De hoeveelheid van optioneel toegevoegd producten aan een winkelmandje is "
+"hetzelfde als het hoofd product."
 
 #: ../../ecommerce/maximizing_revenue/pricing.rst:3
 msgid "How to adapt the prices to my website visitors"
@@ -411,6 +430,7 @@ msgstr "Hoe prijzen wijzigen aan de hand van mijn website bezoekers"
 #: ../../ecommerce/maximizing_revenue/pricing.rst:5
 msgid "This section sheds some light on pricing features of eCommerce app:"
 msgstr ""
+"Deze sectie schijnt licht op de prijs mogelijkheden van de e-commerce app:"
 
 #: ../../ecommerce/maximizing_revenue/pricing.rst:7
 msgid "force a price by geo-localization,"
@@ -496,12 +516,18 @@ msgid ""
 "Make the promocode field available on your *Shopping Cart* page (option in "
 "*Customize* menu). Add a product to cart to reach it."
 msgstr ""
+"Maak het promotiecode veld beschikbaar op uw *winkelmandje* pagina (optie in"
+" *Personaliseer* menu). Voeg een product aan het winkelmandje toe om het te "
+"zien."
 
 #: ../../ecommerce/maximizing_revenue/promo_code.rst:27
 msgid ""
 "Once turned on you see a new section on the right side. On clicking *Apply* "
 "prices get automatically updated in the cart."
 msgstr ""
+"Eenmaal dit geactiveerd is ziet u een nieuwe sectie aan de rechterkant. Na "
+"klikken op *Toepassen* worden de prijzen in het winkelmandje automatisch "
+"geüpdatet."
 
 #: ../../ecommerce/maximizing_revenue/promo_code.rst:33
 msgid ""
@@ -539,6 +565,8 @@ msgid ""
 "Visitors must log in to share their comments. Make sure they are able to do "
 "so (see Portal documentation)."
 msgstr ""
+"Bezoekers moeten aanmelden om hun reacties te delen. Verzeker u ervan dat uw"
+" bezoekers dit zeker kunnen (bekijken de portaal documentatie)."
 
 #: ../../ecommerce/maximizing_revenue/reviews.rst:25
 msgid "Review the posts in real time"
@@ -555,12 +583,15 @@ msgid ""
 "By default the user who created the product is automatically set as "
 "follower."
 msgstr ""
+"Standaard wordt de maker van het product automatisch als volger toegevoegd."
 
 #: ../../ecommerce/maximizing_revenue/reviews.rst:36
 msgid ""
 "Click the product name to open the detail form and review the comment (in "
 "the product discussion thread)."
 msgstr ""
+"Klik op de productnaam om het detailscherm te openen en de commentaar te "
+"reviewen (in de product discussie thread)."
 
 #: ../../ecommerce/maximizing_revenue/reviews.rst:43
 msgid "Moderate & unpublish"
@@ -648,7 +679,7 @@ msgstr "BTW"
 
 #: ../../ecommerce/overview/introduction.rst:17
 msgid "Checkout process"
-msgstr ""
+msgstr "Checkout proces"
 
 #: ../../ecommerce/overview/introduction.rst:18
 msgid "Upselling & cross-selling"
@@ -674,6 +705,133 @@ msgstr "Lanceer mijn website"
 msgid "Get paid"
 msgstr "Wordt betaald"
 
+#: ../../ecommerce/shopper_experience/authorize.rst:3
+msgid "How to get paid with Authorize.Net"
+msgstr "Hoe betaald te worden met Authorize.Net"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:5
+msgid ""
+"Authorize.Net is one of the most popular eCommerce payment platforms in "
+"North America. Unlike most of the other payment acquirers compatible with "
+"Odoo, Authorize.Net can be used as `payment gateway "
+"<https://www.authorize.net/solutions/merchantsolutions/pricing/?p=gwo>`__ "
+"only. That way you can use the `payment processor or merchant "
+"<https://www.authorize.net/partners/resellerprogram/processorlist/>`__ that "
+"you like."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:12
+msgid "Create an Authorize.Net account"
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:14
+msgid ""
+"Create an `Authorize.Net account <https://www.authorize.net>`__ by clicking "
+"'Get Started'."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:16
+msgid ""
+"In the pricing page, press *Sign up now* if you want to use Authorize.net as"
+" both payment gateway and merchant. If you want to use your own merchant, "
+"press the related option."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:23
+msgid "Go through the registration steps."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:24
+msgid ""
+"The account is set as a test account by default. You can use this test "
+"account to process a test transaction from Odoo."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:26
+msgid "Once ready, switch to **Production** mode."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:30
+#: ../../ecommerce/shopper_experience/paypal.rst:74
+msgid "Set up Odoo"
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:31
+msgid ""
+"Activate Authorize.Net in Odoo from :menuselection:`Website or Sales or "
+"Accounting --> Settings --> Payment Acquirers`."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:33
+msgid "Enter both your **Login ID** and your **API Transaction Key**."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:39
+msgid ""
+"To get those credentials in Authorize.Net, you can rely on *API Login ID and"
+" Transaction Key* video of `Authorize.Net Video Tutorials "
+"<https://www.authorize.net/videos/>`__. Such videos give meaningful insights"
+" about how to set up your Authorize.Net account according to your needs."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:47
+#: ../../ecommerce/shopper_experience/paypal.rst:102
+msgid "Go live"
+msgstr "Ga live"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:48
+msgid ""
+"Your configuration is now ready! You can make Authorize.Net visible on your "
+"merchant interface and activate the **Production** mode."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:55
+msgid ""
+"Credentials provided by Authorize.net are different for both test and "
+"production mode. Don't forget to update them in Odoo when you turn on the "
+"production mode."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:61
+msgid "Assess Authorize.Net as payment solution"
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:62
+msgid ""
+"You can test and assess Authorize.Net for free by creating a `developer "
+"account <https://developer.authorize.net>`__."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:64
+msgid ""
+"Once the account created you receive sandbox credentials. Enter them in Odoo"
+" as explained here above and make sure you are still in *Test* mode."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:68
+msgid ""
+"You can also log in to `Authorize.Net sandbox platform "
+"<https://sandbox.authorize.net/>`__ to configure your sandbox account."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:71
+msgid ""
+"To perform ficticious transactions you can use fake card numbers provided in"
+" the `Authorize.Net Testing Guide "
+"<https://developer.authorize.net/hello_world/testing_guide/>`__."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:76
+#: ../../ecommerce/shopper_experience/paypal.rst:154
+msgid ":doc:`payment`"
+msgstr ":doc:`payment`"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:77
+#: ../../ecommerce/shopper_experience/payment.rst:111
+#: ../../ecommerce/shopper_experience/paypal.rst:155
+msgid ":doc:`payment_acquirer`"
+msgstr ":doc:`payment_acquirer`"
+
 #: ../../ecommerce/shopper_experience/payment.rst:3
 msgid "How to get paid with payment acquirers"
 msgstr "Hoe betaald worden met betalingsverwerkers"
@@ -683,6 +841,8 @@ msgid ""
 "Odoo embeds several payment methods to get paid on eCommerce, Sales and "
 "Invoicing apps."
 msgstr ""
+"Odoo biedt meerdere betaalmogelijkheden aan om betaald te worden in de "
+"webshop, verkopen en facturatie apps."
 
 #: ../../ecommerce/shopper_experience/payment.rst:10
 msgid "What are the payment methods available"
@@ -782,7 +942,7 @@ msgstr ""
 
 #: ../../ecommerce/shopper_experience/payment.rst:66
 msgid "This option is available with Ingenico and Authorize.net."
-msgstr ""
+msgstr "Deze optie is mogelijk met Ingenico en Authorize.net."
 
 #: ../../ecommerce/shopper_experience/payment.rst:73
 msgid ""
@@ -812,7 +972,7 @@ msgstr "Wisselen naar ontwikkelaarsmodus."
 
 #: ../../ecommerce/shopper_experience/payment.rst:89
 msgid "Take the **Custom** payment method."
-msgstr ""
+msgstr "Neem de **aangepaste** betaalmethode."
 
 #: ../../ecommerce/shopper_experience/payment.rst:91
 msgid ""
@@ -848,11 +1008,6 @@ msgstr ":doc:`paypal`"
 msgid ":doc:`wire_transfer`"
 msgstr ":doc:`wire_transfer`"
 
-#: ../../ecommerce/shopper_experience/payment.rst:111
-#: ../../ecommerce/shopper_experience/paypal.rst:155
-msgid ":doc:`payment_acquirer`"
-msgstr ":doc:`payment_acquirer`"
-
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:3
 msgid "How to manage orders paid with payment acquirers"
 msgstr "Hoe betaalde orders beheren die betaald zijn met betalingsverwerkers"
@@ -872,6 +1027,7 @@ msgstr "Wat is de betalingsstatus"
 msgid ""
 "At anytime, the salesman can check the transaction status from the order."
 msgstr ""
+"Op elk moment kan de verkoper de transactiestatus bekijken vanuit het order."
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:18
 msgid "*Draft*: transaction under processing."
@@ -895,18 +1051,24 @@ msgid ""
 "*Done*: the payment is authorized and captured. The order has been "
 "confirmed."
 msgstr ""
+"*Voltooid*: de betaling is geautoriseerd en gecapteerd. De order is "
+"bevestigd."
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:30
 msgid ""
 "*Error*: an error has occured during the transaction. The customer needs to "
 "retry the payment. The order is still in draft."
 msgstr ""
+"*Fout*: er is een fout opgetreden tijdens de transactie. De klant moet de "
+"betaling opnieuw proberen. De order bevind zich nog steeds in concept."
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:34
 msgid ""
 "*Cancelled*: when the customer cancels the payment in the payment acquirer "
 "form. They are taken back to Odoo in order to modify the order."
 msgstr ""
+"*Geannuleerd*: wanneer de klant de betaling annuleert in het betaalscherm. "
+"Ze worden teruggebracht naar Odoo om het order te wijzigen."
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:37
 msgid ""
@@ -917,7 +1079,7 @@ msgstr ""
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:44
 msgid "Auto-validate invoices at order"
-msgstr ""
+msgstr "Valideer facturen automatisch vanuit order"
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:46
 msgid ""
@@ -941,7 +1103,7 @@ msgstr ""
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:64
 msgid "Capture the payment after the delivery"
-msgstr ""
+msgstr "Ontvang de betaling na de levering"
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:65
 msgid ""
@@ -968,7 +1130,7 @@ msgstr "Hoe betaald worden met Paypal"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:5
 msgid ""
-"Paypal is the easiest online payment method to configure. It is also the "
+"Paypal is the easiest online payment acquirer to configure. It is also the "
 "only one without any subscription fee. We definitely advise it to any "
 "starter."
 msgstr ""
@@ -988,14 +1150,16 @@ msgid ""
 "Log in to `Paypal <https://www.paypal.com>`__ and open the settings of your "
 "**Profile**."
 msgstr ""
+"Log in op `Paypal <https://www.paypal.com>`__ en open de instellingen van uw"
+" **Profiel**."
 
 #: ../../ecommerce/shopper_experience/paypal.rst:22
 msgid "Now enter the menu **My selling tools**."
-msgstr ""
+msgstr "Ga nu naar het menu **Mijn verkooptools**."
 
 #: ../../ecommerce/shopper_experience/paypal.rst:27
 msgid "Let's start with the **Website Preferences**."
-msgstr ""
+msgstr "Laten we starten met de **Website voorkeuren**."
 
 #: ../../ecommerce/shopper_experience/paypal.rst:29
 msgid ""
@@ -1040,10 +1204,6 @@ msgid ""
 "**Paypal Account Optional** needs to be turned on."
 msgstr ""
 
-#: ../../ecommerce/shopper_experience/paypal.rst:74
-msgid "Set up Paypal's payment method in Odoo"
-msgstr ""
-
 #: ../../ecommerce/shopper_experience/paypal.rst:75
 msgid ""
 "Open Paypal setup form in :menuselection:`Website or Sales or Accounting -->"
@@ -1056,6 +1216,8 @@ msgid ""
 "They are both provided in your Paypal profile, under :menuselection:`My "
 "business info`."
 msgstr ""
+"Ze zijn beide beschikbaar vanuit het Paypal profiel, onder "
+":menuselection:`Mijn bedrijfsinformatie`."
 
 #: ../../ecommerce/shopper_experience/paypal.rst:85
 msgid ""
@@ -1075,17 +1237,15 @@ msgstr "Sleutel: payment_paypal.pdt_token"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:95
 msgid "Value: your Paypal *Identity Token*"
-msgstr ""
-
-#: ../../ecommerce/shopper_experience/paypal.rst:102
-msgid "Go live"
-msgstr "Ga live"
+msgstr "Waarde: uw Paypal *identiteitstoken*"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:103
 msgid ""
 "Your configuration is now ready! You can make Paypal visible on your "
 "merchant interface and activate the **Production mode**."
 msgstr ""
+"Uw configuratie is nu klaar! U kan Paypal zichtbaar maken op uw handelaars "
+"interface en de **Productiemodus** activeren."
 
 #: ../../ecommerce/shopper_experience/paypal.rst:112
 msgid "Transaction fees"
@@ -1158,14 +1318,11 @@ msgstr ""
 #: ../../ecommerce/shopper_experience/paypal.rst:150
 msgid "Run a test transaction from Odoo using the sandbox personal account."
 msgstr ""
-
-#: ../../ecommerce/shopper_experience/paypal.rst:154
-msgid ":doc:`payment`"
-msgstr ":doc:`payment`"
+"Voer een testtransactie uit vanuit Odoo met de persoonlijke sandbox account."
 
 #: ../../ecommerce/shopper_experience/portal.rst:3
 msgid "How customers can access their customer account"
-msgstr ""
+msgstr "Hoe klanten aan hun klantenaccount kunnen"
 
 #: ../../ecommerce/shopper_experience/portal.rst:5
 msgid ""
@@ -1224,7 +1381,7 @@ msgstr ""
 
 #: ../../ecommerce/shopper_experience/wire_transfer.rst:13
 msgid "How to provide customers with payment instructions"
-msgstr ""
+msgstr "Hoe klanten betaling instructies aanbieden"
 
 #: ../../ecommerce/shopper_experience/wire_transfer.rst:14
 msgid ""
@@ -1234,7 +1391,7 @@ msgstr ""
 
 #: ../../ecommerce/shopper_experience/wire_transfer.rst:19
 msgid "They will appear to the customers when they place an order."
-msgstr ""
+msgstr "Ze verschijnen voor de klanten wanneer ze een order plaatsen."
 
 #: ../../ecommerce/shopper_experience/wire_transfer.rst:26
 msgid "How to manage an order once you get paid"
@@ -1249,7 +1406,7 @@ msgstr ""
 
 #: ../../ecommerce/shopper_experience/wire_transfer.rst:35
 msgid "How to create other manual payment methods"
-msgstr ""
+msgstr "Hoe manueel andere betaalmethodes aanmaken"
 
 #: ../../ecommerce/shopper_experience/wire_transfer.rst:37
 msgid ""

@@ -1,16 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
+# This file is distributed under the same license as the Odoo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Onno van Koolwijk <onneau@hotmail.com>, 2018
+# Arnaud De Moyer <arnauddemoyer@gmail.com>, 2018
+# Alain van Hall <ajcvhall@gmail.com>, 2018
+# Martin Trigaux, 2018
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2018
+# Xavier Symons <xsy@openerp.com>, 2018
+# Pol Van Dingenen <pol.vandingenen@vanroey.be>, 2018
+# Gunther Clauwaert <gclauwae@hotmail.com>, 2018
+# Yenthe Van Ginneken <yenthespam@gmail.com>, 2018
+# Cas Vissers <casvissers@brahoo.nl>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Business 10.0\n"
+"Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-16 15:59+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Xavier Symons <xsy@openerp.com>, 2017\n"
+"POT-Creation-Date: 2018-11-07 15:38+0100\n"
+"PO-Revision-Date: 2018-10-19 08:15+0000\n"
+"Last-Translator: Cas Vissers <casvissers@brahoo.nl>, 2018\n"
 "Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,8 +90,8 @@ msgid ""
 "printed documents (and scan lines on the documents), or on a screen (and "
 "scan products directly)."
 msgstr ""
-"Er zijn twee aanpakken om uitgaande leveringen te verwerken: u kan werken op"
-" afgedrukte documenten (en regels scannen van het document), of van een "
+"Er zijn twee aanpakken om leveringen te verwerken: u kan werken op "
+"afgedrukte documenten (en regels scannen van het document), of van een "
 "scherm (en scan direct producten)."
 
 #: ../../inventory/barcode/operations/delivery.rst:10
@@ -209,6 +221,8 @@ msgid ""
 "Lots Numbers can be encoded from incoming shipments, internal moves and "
 "outgoing deliveries:"
 msgstr ""
+"Partijnummers kunnen worden gecodeerd van binnenkomende zendingen, interne "
+"mutaties en uitgaande leveringen:"
 
 #: ../../inventory/barcode/operations/lots_serial_numbers.rst:8
 msgid ""
@@ -246,6 +260,9 @@ msgid ""
 "**Lot** numbers are attributed to several identical products, so each time "
 "you scan a lot number, Odoo will add one on the product count."
 msgstr ""
+"Partijnummers zijn kenmerkend aan meerdere identieke producten, dus elke "
+"keer als u een partijnummer scant, zal Odoo eentje toevoegen aan het product"
+" aantal."
 
 #: ../../inventory/barcode/operations/lots_serial_numbers.rst:24
 msgid ""
@@ -268,6 +285,8 @@ msgid ""
 "Scan a product from this incoming shipment, then scan the lot number of each"
 " product (you can also use the keyboard)."
 msgstr ""
+"Scan een product van de inkomende zending en scan vervolgens het "
+"partijnummer van elk product (u kunt ook het toetsenbord gebruiken)."
 
 #: ../../inventory/barcode/operations/lots_serial_numbers.rst:43
 msgid "Click save/scan **Validate** and you are done."
@@ -275,7 +294,7 @@ msgstr "Click bewaar/scan **Valideer** en u bent klaar."
 
 #: ../../inventory/barcode/operations/receipts.rst:3
 msgid "How to process incoming receipts?"
-msgstr ""
+msgstr "Hoe ontvangsten te verwerken?"
 
 #: ../../inventory/barcode/operations/receipts.rst:5
 msgid ""
@@ -283,6 +302,9 @@ msgid ""
 "on printed documents (and scan lines on the documents), or on a screen (and "
 "scan products directly)."
 msgstr ""
+"Er zijn twee mogelijkheden om ontvangsten te verwerken: u kan werken op "
+"afgedrukte documenten (en lijnen scannen van het document), of van een "
+"scherm (en scan direct producten)."
 
 #: ../../inventory/barcode/operations/receipts.rst:10
 msgid "Process printed incoming receipts:"
@@ -293,12 +315,17 @@ msgid ""
 "Print incoming receipts of the day by selecting all documents from the **To "
 "Receive** list and print **Picking Operations** from the top menu."
 msgstr ""
+"Print ontvangsten van vandaag door alle documenten te selecteren vanuit de "
+"**Te Doen** lijst en print **Lever operaties** vanuit het bovenste menu."
 
 #: ../../inventory/barcode/operations/receipts.rst:16
 msgid ""
 "Once you start processing your incoming receipts, scan the barcode on the "
 "top-right corner of the document to load the right record on the screen."
 msgstr ""
+"Als u eenmaal uw ontvangsten begint te verwerken scant u de streepjescode in"
+" de rechterbovenhoek van uw document om de juiste ontvangstoperatie te "
+"openen op het scherm."
 
 #: ../../inventory/barcode/operations/receipts.rst:20
 msgid ""
@@ -327,12 +354,16 @@ msgid ""
 "When you've picked all the items, click the **Validate** button or scan the "
 "**Validate** barcode action to finish the Operation."
 msgstr ""
+"Wanneer u alle items heeft ontvangen klikt u op de **Valideer** knop of "
+"scant u de **Valideer barcode** actie om de operatie te voltooien."
 
 #: ../../inventory/barcode/operations/receipts.rst:38
 msgid ""
 "Move to the next incoming receipt to process by clicking on the top-right "
 "right **arrow** or scanning the **Pager-Next** barcode action."
 msgstr ""
+"Ga naar de volgende te verwerken ontvangst door te klikken op de **pijl** "
+"rechtsboven of door de **Volgende pagina** streepjescode actie te scannen."
 
 #: ../../inventory/barcode/operations/receipts.rst:42
 #: ../../inventory/management/delivery/scheduled_dates.rst:137
@@ -369,6 +400,10 @@ msgid ""
 "user experience relies on an appropriate hardware setup. This guide will "
 "help you through the task of choosing and configuring the barcode scanner."
 msgstr ""
+"Aan de slag met het scannen van barcodes in Odoo is vrij eenvoudig. Toch is "
+"een goede gebruikerservaring afhankelijk van een geschikte hardware-"
+"installatie. Deze handleiding helpt u bij het kiezen en configureren van de "
+"barcodescanner."
 
 #: ../../inventory/barcode/setup/hardware.rst:11
 msgid "Find the barcode scanner that suits your needs"
@@ -380,6 +415,9 @@ msgid ""
 "**Inventory** and **Barcode Scanning** apps are the **USB scanner**, **the "
 "bluetooth scanner** and the **mobile computer scanner**."
 msgstr ""
+"Het 3 aanbevolen type barcodescanners om te werken met de Odoo ** voorraad "
+"** en ** barcodescanning ** apps zijn de ** USB-scanner **, ** de bluetooth-"
+"scanner ** en de ** mobiele-computer scanner ** ."
 
 #: ../../inventory/barcode/setup/hardware.rst:20
 msgid ""
@@ -388,6 +426,10 @@ msgid ""
 " you buy it that the scanner is compatible with your keyboard layout or can "
 "be configured to be so."
 msgstr ""
+"Als u producten scant op een computerlocatie, is de ** USB-scanner ** de "
+"juiste keuze. Sluit hem gewoon op de computer aan om te beginnen met "
+"scannen. Zorg er voor dat de scanner compatibel is met uw "
+"toetsenbordindeling of zo kan worden geconfigureerd."
 
 #: ../../inventory/barcode/setup/hardware.rst:25
 msgid ""
@@ -397,6 +439,12 @@ msgid ""
 "with the smartphone and work in the warehouse with always the possibility to"
 " check your smartphone from time to time and use the software 'manually'."
 msgstr ""
+"De ** bluetooth-scanner ** kan worden gekoppeld met een smartphone of tablet"
+" en is een goede keuze als u mobiel wilt zijn, zonder zwaar te moeten "
+"investeren. Een mogelijkheid is u bij Odoo aan te melden via je smartphone, "
+"de bluetooth-scanner aan de smartphone te koppelen, en de magazijn "
+"verwerkingen te scannen, met nog steeds de mogelijkheid om de transacties "
+"via je smartphone 'handmatig' te verwerken en te controleren."
 
 #: ../../inventory/barcode/setup/hardware.rst:32
 msgid ""
@@ -424,6 +472,11 @@ msgid ""
 "characters correctly (replacing a 'A' with a 'Q' for example). Most scanners"
 " are configured by scanning the appropriate barcode in the user manual."
 msgstr ""
+"U barcode scanner moet geconfigureerd worden om dezelfde toetsenbord lay-out"
+" te gebruiken als uw besturingssysteem. Anders zal uw scanner karakters niet"
+" correct vertalen (een 'A' vervangen met een 'Q' bijvoorbeeld). De meeste "
+"scanners worden geconfigureerd door de correcte streepjescode uit de "
+"gebruikshandleiding te scannen."
 
 #: ../../inventory/barcode/setup/hardware.rst:57
 msgid "Automatic carriage return"
@@ -458,16 +511,23 @@ msgid ""
 "work more efficiently by controlling the software almost exclusively with "
 "the barcode scanner."
 msgstr ""
+"De functies voor barcodescanning kunnen u veel tijd doen besparen dat "
+"meestal verloren gaat door het schakelen tussen het toetsenbord, de muis en "
+"de scanner. Het op de juiste manier toewijzen van streepjescodes aan "
+"producten, locaties voor pickings, enz. stelt u in staat efficiënter te "
+"werken door de software bijna uitsluitend te besturen met de barcodescanner."
 
 #: ../../inventory/barcode/setup/software.rst:17
 msgid ""
 "Print this document to be able to use your barcode scanner to perform more "
 "actions."
 msgstr ""
+"Print het document om uw barcode scanner te kunnen gebruiken voor meerdere "
+"acties."
 
 #: ../../inventory/barcode/setup/software.rst:19
-msgid ":ref:`Document:` |download_barcode|"
-msgstr ""
+msgid "Document: |download_barcode|"
+msgstr "Document: |download_barcode|"
 
 #: ../../inventory/barcode/setup/software.rst:23
 msgid "Set products barcodes"
@@ -479,22 +539,26 @@ msgid ""
 " that your products are encoded in Odoo along with their barcodes. If this "
 "is not already done, you can fill in the products barcodes through a handy "
 "interface. Go to :menuselection:`Inventory --> Configuration --> Settings` "
-"and click the **Configure Product Barcodes** button. This interface can also"
-" be accessed via the planner."
+"and click :menuselection:`Operations --> Barcode Scanner`. Click Save, and "
+"go back into the previous screen to click Configure Product Barcodes.  This "
+"interface can also be accessed via the planner."
 msgstr ""
 
-#: ../../inventory/barcode/setup/software.rst:37
+#: ../../inventory/barcode/setup/software.rst:39
 msgid ""
 "Product variants: be careful to add barcodes directly on the variant, and "
 "not the template product (otherwise you won't be able to differentiate "
 "them)."
 msgstr ""
+"<strong>Productvarianten:</strong> wees voorzichtig met streepjescodes "
+"direct op een variant toe te voegen en niet op het sjabloonproduct (anders "
+"kan u ze niet onderscheiden)."
 
-#: ../../inventory/barcode/setup/software.rst:42
+#: ../../inventory/barcode/setup/software.rst:44
 msgid "Set locations barcodes"
 msgstr "Stel locatie barcodes in"
 
-#: ../../inventory/barcode/setup/software.rst:47
+#: ../../inventory/barcode/setup/software.rst:49
 msgid ""
 "If you manage multiple locations, you will find useful to attribute a "
 "barcode to each location and stick it on the location. You can configure the"
@@ -504,26 +568,37 @@ msgid ""
 "barcodes per page, arranged in a way that is convenient to print on sticker "
 "paper."
 msgstr ""
+"Als u meerdere locaties beheert, is het handig om aan elke locatie een "
+"streepjescode toe te wijzen en deze op de locatie te plakken. U kunt de "
+"streepjescode van de locaties configureren in: menuselectie: `Voorraad -> "
+"Configuratie -> Magazijnbeheer -> Locaties`. Er is een knop in het menu ** "
+"Afdrukken ** die u kunt gebruiken om de namen van locaties en streepjescodes"
+" af te drukken. Er zijn 4 streepjescodes per pagina, zodanig gerangschikt "
+"dat het handig is om op stickerpapier af te drukken."
 
-#: ../../inventory/barcode/setup/software.rst:56
+#: ../../inventory/barcode/setup/software.rst:58
 msgid ""
 "Example of location naming: **warehouse short name** - **location short "
 "name** - (**Corridor X** - **Shelf Y** - **Height Z**) Example: A032-025-133"
 msgstr ""
 
-#: ../../inventory/barcode/setup/software.rst:63
+#: ../../inventory/barcode/setup/software.rst:65
 msgid "Barcode formats"
 msgstr "Barcode formaten"
 
-#: ../../inventory/barcode/setup/software.rst:65
+#: ../../inventory/barcode/setup/software.rst:67
 msgid ""
 "Most retail products use EAN-13 barcodes. They cannot be made up without "
 "proper authorization: you must pay the International Article Numbering "
 "Association a fee in exchange for an EAN code sequence (that's why no two "
 "products in a store will ever have the same EAN code)."
 msgstr ""
+"<strong>EAN-13 barcodes:</strong> gebruikt door de meeste producthandelaren,"
+" ze kunnen niet gemaakt worden zonder een autorisatie: bij de internationale"
+" artikelnummer associatie kan u een EAN code reeks aankopen (de reden waarom"
+" twee producten nooit dezelfde EAN code hebben)."
 
-#: ../../inventory/barcode/setup/software.rst:70
+#: ../../inventory/barcode/setup/software.rst:72
 msgid ""
 "Still, as Odoo supports any string as a barcode, so you can always define "
 "your own barcode format for internal use."
@@ -548,6 +623,8 @@ msgid ""
 "One of the most important feature in an warehouse management software is to "
 "keep the inventory right."
 msgstr ""
+"Een van de belangrijkste kenmerken van een warehouse management software is "
+"het bijhouden van een correcte voorraad."
 
 #: ../../inventory/management/adjustment/initial_inventory.rst:8
 msgid ""
@@ -555,6 +632,9 @@ msgid ""
 "inventory. You will reflect reality by inventorying the right quantities in "
 "the right locations."
 msgstr ""
+"Zodra uw producten zijn gedefinieerd, is het tijd om uw eerste inventaris op"
+" te maken. Dit wordt meteen een weerspiegeling van de realiteit door de "
+"juiste hoeveelheden op de juiste locaties te inventariseren."
 
 #: ../../inventory/management/adjustment/initial_inventory.rst:13
 #: ../../inventory/management/lots_serial_numbers/lots.rst:55
@@ -594,6 +674,8 @@ msgid ""
 "if you are using multiple locations for your warehouse, you will be able to "
 "set the location of your product from this screen."
 msgstr ""
+"Indien u meerdere locaties gebruikt voor uw magazijn kan u de locatie van uw"
+" product instellen vanuit dit scherm."
 
 #: ../../inventory/management/adjustment/initial_inventory.rst:42
 msgid ""
@@ -657,12 +739,16 @@ msgstr ""
 msgid ""
 "Add the **Real Quantity** that you have in your stock for each product."
 msgstr ""
+"Voeg de ** Reële hoeveelheid ** toe die u voor elk product in voorraad hebt "
+"."
 
 #: ../../inventory/management/adjustment/initial_inventory.rst:92
 msgid ""
 "additional information will be available according to the options you "
 "activated (multi-locations, serial number, consignee stocks)."
 msgstr ""
+"aanvullende informatie zal beschikbaar zijn volgens de opties die u hebt "
+"geactiveerd (multi-locaties, serienummer, consignatie)."
 
 #: ../../inventory/management/adjustment/initial_inventory.rst:98
 msgid ""
@@ -692,12 +778,17 @@ msgid ""
 "different rules. They should be used depending on your manufacturing and "
 "delivery strategies."
 msgstr ""
+"Minimale voorraadregels en Maak op Order hebben soortgelijke gevolgen maar "
+"verschillende regels. Ze moeten worden gebruikt, afhankelijk van uw "
+"productie- en levering- strategieën."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:10
+#: ../../inventory/settings/products/strategies.rst:10
 msgid "Terminology"
 msgstr "Terminologie"
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:13
+#: ../../inventory/settings/products/strategies.rst:13
 msgid "Minimum stock rule"
 msgstr "Minimale stockregel"
 
@@ -709,9 +800,17 @@ msgid ""
 " minimum the system will automatically generate a procurement with the "
 "quantity needed to reach the maximum stock level."
 msgstr ""
+"Minimum voorraadregels worden gebruikt om ervoor te zorgen dat u altijd het "
+"minimale aantal producten op voorraad heeft om uw producten te kunnen "
+"vervaardigen en / of te beantwoorden aan uw klantenbehoeften. Wanneer het "
+"voorraadniveau van een product het minimum bereikt, zal het systeem "
+"automatisch een inkooporder genereren met de hoeveelheid die nodig is om het"
+" maximale voorraadniveau te bereiken."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:22
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:56
+#: ../../inventory/settings/products/strategies.rst:22
+#: ../../inventory/settings/products/strategies.rst:58
 msgid "Make to Order"
 msgstr "Maak op order"
 
@@ -722,6 +821,10 @@ msgid ""
 "**not** check the current stock valuation. This means that a draft purchase "
 "order will be generated regardless of the quantity on hand of the product."
 msgstr ""
+"Met de functie Maak op Order wordt een aankooporder geactiveerd dat gelijk "
+"is aan het aantal bestelde producten. Het systeem zal de huidige voorraad **"
+" niet ** controleren. Dit betekent dat een concept aankooporder wordt "
+"gegenereerd, ongeacht de beschikbare hoeveelheid."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:30
 #: ../../inventory/management/delivery/delivery_countries.rst:12
@@ -746,8 +849,7 @@ msgstr ""
 #: ../../inventory/routes/costing/landed_costs.rst:18
 #: ../../inventory/routes/strategies/putaway.rst:23
 #: ../../inventory/routes/strategies/removal.rst:18
-#: ../../inventory/settings/products/packages.rst:17
-#: ../../inventory/settings/products/packages.rst:66
+#: ../../inventory/settings/products/strategies.rst:30
 #: ../../inventory/settings/products/uom.rst:17
 #: ../../inventory/settings/products/variants.rst:114
 #: ../../inventory/settings/warehouses/location_creation.rst:6
@@ -761,6 +863,7 @@ msgid "Configuration"
 msgstr "Instellingen"
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:33
+#: ../../inventory/settings/products/strategies.rst:33
 msgid "Minimum stock rules"
 msgstr "Minimale stockregels"
 
@@ -774,7 +877,7 @@ msgstr ""
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid "Active"
-msgstr "Actief"
+msgstr "Actie"
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid ""
@@ -789,8 +892,8 @@ msgid "Product Unit of Measure"
 msgstr "Maateenheid product"
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
-msgid "Default Unit of Measure used for all stock operation."
-msgstr "Standaard maateenheid voor alle voorraadhandelingen."
+msgid "Default unit of measure used for all stock operations."
+msgstr "Standaard maateenheid gebruikt voor alle voorraadbewegingen."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid "Procurement Group"
@@ -799,13 +902,12 @@ msgstr "Verwervingsgroep"
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid ""
 "Moves created through this orderpoint will be put in this procurement group."
-" If none is given, the moves generated by procurement rules will be grouped "
-"into one big picking."
+" If none is given, the moves generated by stock rules will be grouped into "
+"one big picking."
 msgstr ""
-"Mutaties welke welke worden aangemaakt door deze aanvulregel worden "
-"geplaatst in deze verwervingsgroep. Indien niets is ingevoerd, worden de "
-"mutaties, gegenereerd door de verwervingsregel gegroepeerd in één grote "
-"levering."
+"Mutaties welke worden aangemaakt door deze aanvulregel worden geplaatst in "
+"deze verwervingsgroep. Indien niets is ingevoerd, worden de mutaties, "
+"gegenereerd door de voorraadregels, gegroepeerd in één grote levering."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid "Minimum Quantity"
@@ -864,6 +966,8 @@ msgid ""
 "Then, click on your product to access the related product form and, on the "
 "**Inventory submenu**, do not forget to select a supplier."
 msgstr ""
+"Klik vervolgens op uw product om het gerelateerde productformulier en het "
+"\"Voorraad submenu\" te zien, vergeet geen leverancier aan te duiden."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:52
 msgid ""
@@ -871,6 +975,9 @@ msgid ""
 "consumable can not be stocked and will thus not be accounted for in the "
 "stock valuation."
 msgstr ""
+"Vergeet niet het juiste soort product te selecteren. Een verbruik product "
+"kan niet gestockeerd worden en wordt dus niet gebruikt in de stock "
+"berekening."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:58
 msgid ""
@@ -881,27 +988,34 @@ msgstr ""
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:62
 msgid "On the product form, under **Inventory**, click on **Make To Order**."
-msgstr ""
+msgstr "Klik in het product scherm onder Inventaris op \"Maak op Order\"."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:68
+#: ../../inventory/settings/products/strategies.rst:70
 msgid "Choice between the two options"
 msgstr "Kies tussen de twee opties"
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:70
+#: ../../inventory/settings/products/strategies.rst:72
 msgid ""
 "The choice between the two options is thus dependent of your inventory "
 "strategy. If you prefer to have a buffer and always have at least a minimum "
 "amount, the minimum stock rule should be used. If you want to reorder your "
 "stocks only if your sale is confirmed it is better to use the Make to Order."
 msgstr ""
+"De keuze tussen de twee opties is dus afhankelijk van uw voorraadstrategie. "
+"Als u de voorkeur geeft aan een buffer en steeds een minimum aantal op "
+"voorraad wenst, moet de minimumvoorraadregel worden gebruikt. Als u uw "
+"voorraden alleen wenst aan te vullen als uw verkoop is bevestigd, is het "
+"beter om de Maak op order route te gebruiken."
 
 #: ../../inventory/management/delivery.rst:3
 msgid "Delivery Orders"
-msgstr "Uitgaande leveringen"
+msgstr "Leveringen"
 
 #: ../../inventory/management/delivery/cancel_order.rst:3
 msgid "How do I cancel a delivery order?"
-msgstr ""
+msgstr "Hoe een inkooporder annuleren?"
 
 #: ../../inventory/management/delivery/cancel_order.rst:6
 #: ../../inventory/management/delivery/delivery_countries.rst:6
@@ -922,7 +1036,6 @@ msgstr ""
 #: ../../inventory/routes/costing/landed_costs.rst:6
 #: ../../inventory/routes/strategies/putaway.rst:6
 #: ../../inventory/routes/strategies/removal.rst:6
-#: ../../inventory/settings/products/packages.rst:6
 #: ../../inventory/settings/products/uom.rst:6
 #: ../../inventory/shipping/operation/cancel.rst:6
 #: ../../inventory/shipping/operation/invoicing.rst:6
@@ -938,6 +1051,8 @@ msgid ""
 "Odoo gives you the possibility to cancel a delivery method whether it has "
 "been validated to fast, it needs to be modified or for any other reason."
 msgstr ""
+"Odoo biedt u de mogelijkheid om een leveringsmethode te annuleren, of deze "
+"nu te snel is gevalideerd, moet worden gewijzigd of om een andere reden."
 
 #: ../../inventory/management/delivery/cancel_order.rst:12
 msgid ""
@@ -945,6 +1060,9 @@ msgid ""
 "delivery order as fast as possible if it needs to be done so you don't have "
 "any bad surprise."
 msgstr ""
+"Sommige vervoerders zijn flexibeler dan andere, dus zorg ervoor dat u uw "
+"levering zo snel mogelijk annuleert om onaangename verrassingen te "
+"vermijden."
 
 #: ../../inventory/management/delivery/cancel_order.rst:17
 #: ../../inventory/shipping/operation/multipack.rst:26
@@ -957,12 +1075,15 @@ msgid ""
 "Go to the **Sales** module, click on **Sales** and then on **Sales Order**. "
 "Then click on the sale order you want to cancel."
 msgstr ""
+"Ga naar **Verkopen** en klik op **Verkooporder** in de **Verkoop** module. "
+"Klik vervolgens op de verkooporder die u wilt annuleren."
 
 #: ../../inventory/management/delivery/cancel_order.rst:25
 msgid ""
 "Click on the **Delivery** button, in the upper right corner of the sale "
 "order."
 msgstr ""
+"Klik op de knop ** Levering** in de rechterbovenhoek van de verkooporder."
 
 #: ../../inventory/management/delivery/cancel_order.rst:31
 msgid ""
@@ -970,22 +1091,30 @@ msgid ""
 "**Carrier Tracking Reference**, there is a **Cancel** button. Click on it to"
 " cancel the delivery."
 msgstr ""
+"Klik op het tabblad ** Aanvullende Informatie ** , zult zien dat naast de **"
+" Levering Tracking informatie **, er een ** Annuleren ** knop is. Klik erop "
+"om de levering te annuleren."
 
 #: ../../inventory/management/delivery/cancel_order.rst:38
 msgid ""
 "To make sure that your delivery is cancelled, check in the history, you will"
 " receive the confirmation of the cancellation."
 msgstr ""
+"Om ervoor te zorgen dat uw levering werd geannuleerd, check de historiek , u"
+" ontvangt de bevestiging van de annulering."
 
 #: ../../inventory/management/delivery/delivery_countries.rst:3
 msgid "How can I limit a delivery method to a certain number of countries?"
 msgstr ""
+"Hoe kan ik een leveringsmethode beperken tot een bepaald aantal landen?"
 
 #: ../../inventory/management/delivery/delivery_countries.rst:8
 msgid ""
 "With Odoo, you can have different types of delivery methods, and you can "
 "limit them to a certain number of countries."
 msgstr ""
+"Met Odoo kunt u verschillende soorten leveringsmethoden instellen en kunt u "
+"ze beperken tot een bepaald aantal landen."
 
 #: ../../inventory/management/delivery/delivery_countries.rst:14
 msgid ""
@@ -997,16 +1126,19 @@ msgstr ""
 msgid ""
 "Select the delivery method that you want to change, or create a new one."
 msgstr ""
+"Selecteer de leveringsmethode die u wilt wijzigen of maak een nieuwe aan."
 
 #: ../../inventory/management/delivery/delivery_countries.rst:25
 msgid ""
 "In the **Destination** tab, choose the countries to which you want to apply "
 "this delivery method."
 msgstr ""
+"Kies op het tabblad ** Bestemming ** de landen waarop u deze "
+"leveringsmethode wilt toepassen."
 
 #: ../../inventory/management/delivery/delivery_countries.rst:28
 msgid "Now, that this is done, Let's see the result."
-msgstr ""
+msgstr "Laten we kijken naar het resultaat, nu dit klaar is."
 
 #: ../../inventory/management/delivery/delivery_countries.rst:30
 msgid ""
@@ -1044,6 +1176,7 @@ msgstr ""
 #: ../../inventory/management/delivery/dropshipping.rst:18
 msgid "Points to be considered while implementing drop-shipping"
 msgstr ""
+"Punten om rekening mee te houden bij de implementatie van drop-shipping"
 
 #: ../../inventory/management/delivery/dropshipping.rst:20
 msgid ""
@@ -1118,7 +1251,7 @@ msgstr ""
 
 #: ../../inventory/management/delivery/dropshipping.rst:74
 msgid "How to send products from the customers directly to the suppliers"
-msgstr ""
+msgstr "Hoe producten direct vanuit de klanten naar de leveranciers te sturen"
 
 #: ../../inventory/management/delivery/dropshipping.rst:76
 msgid ""
@@ -1239,7 +1372,7 @@ msgstr "Gelieve de documentatie te lezen op :doc:`three_steps`"
 
 #: ../../inventory/management/delivery/label_type.rst:3
 msgid "How can I change the label type?"
-msgstr ""
+msgstr "Hoe kan ik het type label wijzigen?"
 
 #: ../../inventory/management/delivery/label_type.rst:8
 msgid ""
@@ -1256,7 +1389,7 @@ msgstr ""
 
 #: ../../inventory/management/delivery/label_type.rst:18
 msgid "Choose a delivery method and then click on **Edit**."
-msgstr ""
+msgstr "Kies een levermethode en klik vervolgens op **Wijzigen**."
 
 #: ../../inventory/management/delivery/label_type.rst:23
 msgid ""
@@ -1270,6 +1403,8 @@ msgid ""
 "Once this is done, you can see the result if you go to the Sales module and "
 "you create a new sale order."
 msgstr ""
+"Eenmaal dit gedaan is kan u het resultaat zien wanneer u de Verkoop module "
+"opent en een nieuwe verkooporder aanmaakt."
 
 #: ../../inventory/management/delivery/label_type.rst:33
 msgid ""
@@ -1285,7 +1420,7 @@ msgstr ""
 
 #: ../../inventory/management/delivery/one_step.rst:3
 msgid "How to process delivery orders in one step (shipping)?"
-msgstr ""
+msgstr "Hoe leverorders in één stap verwerken (verzending)?"
 
 #: ../../inventory/management/delivery/one_step.rst:8
 msgid ""
@@ -1376,7 +1511,7 @@ msgstr ""
 
 #: ../../inventory/management/delivery/packaging_type.rst:3
 msgid "How can you change the packaging type for your sale order?"
-msgstr ""
+msgstr "Hoe kan u het soort verpakking wijzigen voor uw verkooporder?"
 
 #: ../../inventory/management/delivery/packaging_type.rst:8
 msgid ""
@@ -1399,15 +1534,16 @@ msgstr ""
 
 #: ../../inventory/management/delivery/packaging_type.rst:24
 msgid "*Sale process*"
-msgstr ""
+msgstr "*Verkoopproces*"
 
 #: ../../inventory/management/delivery/packaging_type.rst:26
 msgid "In the **Sales** module, go to **Sales** and click on **Sale Order**."
 msgstr ""
+"Ga naar **Verkopen** en klik op **Verkooporder** in de **Verkoop** module."
 
 #: ../../inventory/management/delivery/packaging_type.rst:28
 msgid "Create your new Sale Order, and **Confirm the Sale**."
-msgstr ""
+msgstr "Maak uw nieuwe verkooporder en **Bevestig de verkoop**."
 
 #: ../../inventory/management/delivery/packaging_type.rst:33
 msgid ""
@@ -1439,7 +1575,7 @@ msgstr ""
 
 #: ../../inventory/management/delivery/packaging_type.rst:54
 msgid "Finally, click on **Validate** to confirm the delivery."
-msgstr ""
+msgstr "Klik uiteindelijk op **Valideren** om de levering te bevestigen."
 
 #: ../../inventory/management/delivery/scheduled_dates.rst:3
 msgid "How is the scheduled delivery date computed?"
@@ -2012,7 +2148,7 @@ msgstr ""
 
 #: ../../inventory/management/incoming.rst:3
 msgid "Incoming Shipments"
-msgstr "Inkomende leveringen"
+msgstr "Ontvangsten"
 
 #: ../../inventory/management/incoming/handle_receipts.rst:3
 msgid "How to choose the right flow to handle receipts?"
@@ -2354,7 +2490,7 @@ msgid ""
 msgstr ""
 
 #: ../../inventory/management/incoming/two_steps.rst:81
-msgid "How to to transfer the receipt to your stock ?"
+msgid "How to transfer the receipt to your stock ?"
 msgstr ""
 
 #: ../../inventory/management/incoming/two_steps.rst:83
@@ -2764,6 +2900,65 @@ msgstr ""
 msgid "Miscellaneous Operations"
 msgstr "Memoriaal boekingen"
 
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:2
+msgid "Immediate & Planned Transfers"
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:4
+msgid ""
+"In Odoo, you can create two types of transfers: immediate or planned "
+"transfers."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:8
+msgid "Immediate Transfers"
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:10
+msgid ""
+"When you create a transfer manually, it is by default an immediate transfer."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:13
+msgid ""
+"In the case of an immediate transfer, you directly encode the products and "
+"quantities you are processing, there is no reservation that applies. This is"
+" why the column \"Initial Demand\" is not editable. You only fill in the "
+"column \"Done\" for the quantities."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:18
+msgid ""
+"This is for example used when you are transferring goods from a location A "
+"to a location B and that this is not planned (you are processing the "
+"transfer right now)."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:23
+msgid "Planned Transfers"
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:25
+msgid ""
+"When a transfer is generated automatically (from a sales order or purchase "
+"order for example), it is a planned transfer. This means that there is an "
+"initial demand and that reservation applies on this initial demand."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:30
+msgid ""
+"If you want to create a planned transfer manually, you can do it from the "
+"inventory dashboard."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:36
+msgid ""
+"In that case, you will have to enter the initial demand first (how many "
+"units are you supposed to proceed), then to mark your transfer as to do. "
+"Once this is done, you will be able to reserve the products and to process "
+"the transfer."
+msgstr ""
+
 #: ../../inventory/management/misc/owned_stock.rst:3
 msgid "How to manage stock that you don't own?"
 msgstr "Hoe stock te beheren die u niet bezit?"
@@ -2935,7 +3130,7 @@ msgstr ""
 #: ../../inventory/management/misc/scrap.rst:30
 msgid ""
 "To create an extra scrap location, Go to :menuselection:`Inventory --> "
-"Configuration --> Setting` and check **Manage several locations per "
+"Configuration --> Settings` and check **Manage several locations per "
 "warehouse**, then click on **Apply**."
 msgstr ""
 
@@ -2999,7 +3194,7 @@ msgstr ""
 #: ../../inventory/management/misc/scrap.rst:84
 msgid ""
 "To scrap product from internal transfer, Go to :menuselection:`Inventory -->"
-" Dashboard --> Receipts`"
+" Dashboard --> Internal Transfers`"
 msgstr ""
 
 #: ../../inventory/management/misc/scrap.rst:90
@@ -3019,7 +3214,7 @@ msgstr ""
 msgid ""
 "To allow change scrap location on wizard, you have to select **Manage "
 "several location per warehouse** in the settings at "
-":menuselection:`Inventory --> Configuration --> Setting`"
+":menuselection:`Inventory --> Configuration --> Settings`"
 msgstr ""
 
 #: ../../inventory/management/reporting.rst:3
@@ -3731,45 +3926,52 @@ msgstr ""
 
 #: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:347
 msgid ""
-"Revenues/Expenses: defined by default on product's internal category and can"
-" be set in product form (Accounting tab) as a specific replacement value"
+"Revenues: defined on the product category as a default, or specifically to a"
+" specific product."
 msgstr ""
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:351
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:350
+msgid ""
+"Expenses: this is where you should set the \"Cost of Goods Sold\" account. "
+"Defined on the product category as a default value, or specifically on the "
+"product form."
+msgstr ""
+
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:354
 msgid ""
 "Goods Received Not Purchased: to set as Stock Input Account in product's "
 "internal category"
 msgstr ""
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:354
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:357
 msgid ""
 "Goods Issued Not Invoiced: to set as Stock Output Account in product's "
 "internal category"
 msgstr ""
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:357
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:360
 #: ../../inventory/management/reporting/valuation_methods_continental.rst:352
 msgid ""
 "Inventory: to set as Stock Valuation Account in product's internal category"
 msgstr ""
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:359
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:362
 msgid ""
 "Price Difference: to set in product's internal category or in product form "
 "as a specific replacement value"
 msgstr ""
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:364
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:367
 #: ../../inventory/management/reporting/valuation_methods_continental.rst:356
 msgid ":doc:`../../routes/strategies/removal`"
 msgstr ":doc:`../../routes/strategies/removal`"
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:365
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:368
 #: ../../inventory/management/reporting/valuation_methods_continental.rst:357
 msgid ":doc:`../../../accounting/others/inventory/avg_price_valuation`"
 msgstr ":doc:`../../../accounting/others/inventory/avg_price_valuation`"
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:366
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:369
 #: ../../inventory/management/reporting/valuation_methods_continental.rst:358
 msgid ":doc:`../../routes/costing/landed_costs`"
 msgstr ":doc:`../../routes/costing/landed_costs`"
@@ -3974,7 +4176,7 @@ msgid "Main Concepts"
 msgstr "Belangrijkste concepten"
 
 #: ../../inventory/overview/concepts/double-entry.rst:5
-msgid "Double-Entry Inventory Management"
+msgid "Introduction to Inventory Management"
 msgstr ""
 
 #: ../../inventory/overview/concepts/double-entry.rst:7
@@ -4051,7 +4253,7 @@ msgstr ""
 
 #: ../../inventory/overview/concepts/double-entry.rst:39
 msgid "Pick"
-msgstr "Verzamelen"
+msgstr "Pick"
 
 #: ../../inventory/overview/concepts/double-entry.rst:40
 msgid "1 Bicycle: Stock → Packing Zone"
@@ -4298,7 +4500,7 @@ msgstr "Een product"
 
 #: ../../inventory/overview/concepts/double-entry.rst:205
 msgid "Product Route Example: Quality Control"
-msgstr ""
+msgstr "Product route voorbeeld: Kwaliteitscontrole"
 
 #: ../../inventory/overview/concepts/double-entry.rst:207
 #: ../../inventory/overview/concepts/double-entry.rst:217
@@ -4308,7 +4510,7 @@ msgstr "Ontvangst:"
 #: ../../inventory/overview/concepts/double-entry.rst:208
 #: ../../inventory/overview/concepts/double-entry.rst:218
 msgid "Supplier → Input"
-msgstr ""
+msgstr "Leverancier → Input"
 
 #: ../../inventory/overview/concepts/double-entry.rst:209
 msgid "Confirmation:"
@@ -4316,7 +4518,7 @@ msgstr "Bevestiging:"
 
 #: ../../inventory/overview/concepts/double-entry.rst:210
 msgid "Input → Quality Control"
-msgstr ""
+msgstr "Input → Kwaliteitscontrole"
 
 #: ../../inventory/overview/concepts/double-entry.rst:212
 msgid "Storage:"
@@ -4324,7 +4526,7 @@ msgstr "Opslag:"
 
 #: ../../inventory/overview/concepts/double-entry.rst:212
 msgid "Quality Control → Stock"
-msgstr ""
+msgstr "Kwaliteitscontrole → Stock"
 
 #: ../../inventory/overview/concepts/double-entry.rst:221
 msgid "Product Category"
@@ -4356,7 +4558,7 @@ msgstr "Verkooporderregel"
 
 #: ../../inventory/overview/concepts/double-entry.rst:224
 msgid "Sale Order Line Example: Drop-shipping"
-msgstr ""
+msgstr "Verkooporderlijn voorbeeld: dropshipping"
 
 #: ../../inventory/overview/concepts/double-entry.rst:227
 msgid "Order:"
@@ -4364,7 +4566,7 @@ msgstr "Order:"
 
 #: ../../inventory/overview/concepts/double-entry.rst:227
 msgid "Supplier → Customer"
-msgstr ""
+msgstr "Leverancier → Klant"
 
 #: ../../inventory/overview/concepts/double-entry.rst:230
 msgid "Push Rules"
@@ -4408,7 +4610,7 @@ msgstr ""
 
 #: ../../inventory/overview/concepts/double-entry.rst:247
 msgid "Procurement Groups"
-msgstr ""
+msgstr "Verwervingsgroepen"
 
 #: ../../inventory/overview/concepts/double-entry.rst:249
 msgid ""
@@ -4661,6 +4863,8 @@ msgid ""
 "Go to the **Purchases** applications. The first screen is the **Request for "
 "Quotation** list. Click on the **Create** button."
 msgstr ""
+"Ga naar de **Aankopen** applicatie. Het eerste scherm is de "
+"**Offerteaanvraag** lijst. Klik op de knop **Aanmaken**."
 
 #: ../../inventory/overview/process/sale_to_delivery.rst:36
 msgid ""
@@ -4754,12 +4958,14 @@ msgid ""
 "Go to the **Sales** applications. Click on the **Quotations** button of your"
 " team."
 msgstr ""
+"Ga naar de **Verkopen** applicatie. Klik op de **Offertes** knop van uw "
+"team."
 
 #: ../../inventory/overview/process/sale_to_delivery.rst:111
 msgid ""
 "You will get the list of all your quotations. Click on the **Create** "
 "button."
-msgstr ""
+msgstr "U krijgt een lijst van al uw offertes. Klik op de **Aanmaken** knop."
 
 #: ../../inventory/overview/process/sale_to_delivery.rst:114
 msgid ""
@@ -4788,6 +4994,8 @@ msgid ""
 "On the top right of your sale order, you will see a button with the related "
 "**Delivery**:"
 msgstr ""
+"In de rechtse bovenhoek van uw verkooporder ziet u de knop met de "
+"gerelateerde **Levering**:"
 
 #: ../../inventory/overview/process/sale_to_delivery.rst:141
 msgid ""
@@ -4797,13 +5005,15 @@ msgstr ""
 
 #: ../../inventory/overview/process/sale_to_delivery.rst:147
 msgid "In the list, click on the one related to the sale order:"
-msgstr ""
+msgstr "Klik in de lijst op degene gerelateerd aan de verkooporder:"
 
 #: ../../inventory/overview/process/sale_to_delivery.rst:153
 msgid ""
 "If the product is not in stock, the sale order will be listed as **Waiting**"
 " on your dashboard."
 msgstr ""
+"Indien het product niet in stock is zal de verkooporder getoond worden als "
+"**Wachtend** op uw dashboard."
 
 #: ../../inventory/overview/process/sale_to_delivery.rst:157
 msgid "Process the delivery"
@@ -4881,7 +5091,7 @@ msgstr ""
 
 #: ../../inventory/overview/start/setup.rst:17
 msgid "Set up your warehouse"
-msgstr ""
+msgstr "Zet uw magazijn op"
 
 #: ../../inventory/overview/start/setup.rst:19
 msgid "Import your vendors"
@@ -4893,7 +5103,7 @@ msgstr "Importeer uw producten"
 
 #: ../../inventory/overview/start/setup.rst:23
 msgid "Set up the initial inventory"
-msgstr ""
+msgstr "Zet de initiële voorraad op"
 
 #: ../../inventory/overview/start/setup.rst:25
 msgid "Configure your sales and purchase flows"
@@ -5537,6 +5747,8 @@ msgid ""
 "In order to make it work, you also have to activate the use of the routes on"
 " the sales order."
 msgstr ""
+"Om dit te doen werken moet ook het gebruik van routes activeren op de "
+"verkooporder."
 
 #: ../../inventory/routes/concepts/use_routes.rst:111
 msgid ""
@@ -5625,7 +5837,7 @@ msgstr ""
 
 #: ../../inventory/routes/costing/landed_costs.rst:40
 msgid "Landed Cost Types"
-msgstr ""
+msgstr "Prijs bij lossing types"
 
 #: ../../inventory/routes/costing/landed_costs.rst:42
 msgid ""
@@ -5634,43 +5846,43 @@ msgid ""
 ":menuselection:`Inventory --> Configuration --> Landed Cost types`."
 msgstr ""
 
-#: ../../inventory/routes/costing/landed_costs.rst:52
+#: ../../inventory/routes/costing/landed_costs.rst:50
 msgid ""
 "Landed costs are only possible for products configured in real time "
 "valuation with real price costing method. The costing method is configured "
 "on the product category."
 msgstr ""
 
-#: ../../inventory/routes/costing/landed_costs.rst:57
+#: ../../inventory/routes/costing/landed_costs.rst:55
 msgid "Link landed costs to a transfer"
 msgstr ""
 
-#: ../../inventory/routes/costing/landed_costs.rst:59
+#: ../../inventory/routes/costing/landed_costs.rst:57
 msgid ""
 "To calculate landed costs, go to :menuselection:`Inventory --> Inventory "
 "Control --> Landed Costs`."
 msgstr ""
 
-#: ../../inventory/routes/costing/landed_costs.rst:62
+#: ../../inventory/routes/costing/landed_costs.rst:60
 msgid ""
 "Click on the **Create** button and select the picking(s) you want to "
 "attribute landed costs."
 msgstr ""
 
-#: ../../inventory/routes/costing/landed_costs.rst:68
+#: ../../inventory/routes/costing/landed_costs.rst:66
 msgid ""
 "Select the account journal in which to post the landed costs. We recommend "
 "you to create a specific journal for landed costs. Therefore it will be "
 "easier to keep track of your postings."
 msgstr ""
 
-#: ../../inventory/routes/costing/landed_costs.rst:75
+#: ../../inventory/routes/costing/landed_costs.rst:73
 msgid ""
 "Click the **Compute** button to see how the landed costs will be split "
 "across the picking lines."
 msgstr ""
 
-#: ../../inventory/routes/costing/landed_costs.rst:81
+#: ../../inventory/routes/costing/landed_costs.rst:79
 msgid ""
 "To confirm the landed costs attribution, click on the **Validate** button."
 msgstr ""
@@ -5721,12 +5933,16 @@ msgstr "Een strategie opzetten"
 msgid ""
 "Let's take as an example a retail shop where we store vegetables and fruits."
 msgstr ""
+"Laten we een voorbeeld nemen van een winkel waar we groenten en fruit "
+"bewaren."
 
 #: ../../inventory/routes/strategies/putaway.rst:38
 msgid ""
 "We have to store this type of product in different locations to maintain "
 "product quality."
 msgstr ""
+"We moeten dit type van product in verschillende locaties opslaan om "
+"productkwaliteit te onderhouden."
 
 #: ../../inventory/routes/strategies/putaway.rst:41
 msgid ""
@@ -5769,7 +5985,7 @@ msgstr ""
 
 #: ../../inventory/routes/strategies/putaway.rst:67
 msgid "There you can see current inventory by location."
-msgstr ""
+msgstr "Daar kan u de huidige voorraad zien per locatie."
 
 #: ../../inventory/routes/strategies/removal.rst:3
 msgid "What is a removal strategy (FIFO, LIFO, and FEFO)?"
@@ -5811,7 +6027,7 @@ msgstr ""
 
 #: ../../inventory/routes/strategies/removal.rst:40
 msgid "Types of removal strategy"
-msgstr ""
+msgstr "Soorten verwijder strategieën"
 
 #: ../../inventory/routes/strategies/removal.rst:43
 msgid "FIFO ( First In First Out )"
@@ -5894,7 +6110,7 @@ msgstr ""
 
 #: ../../inventory/routes/strategies/removal.rst:100
 msgid "FEFO ( First Expiry First Out )"
-msgstr ""
+msgstr "FEFO ( First Expiry First Out )"
 
 #: ../../inventory/routes/strategies/removal.rst:102
 msgid ""
@@ -5979,19 +6195,19 @@ msgstr ""
 
 #: ../../inventory/routes/strategies/removal.rst:151
 msgid "Product Use Time --> Best Before Date"
-msgstr ""
+msgstr "Product gebruiksduur --> Beste voor datum"
 
 #: ../../inventory/routes/strategies/removal.rst:153
 msgid "Product Removal Time --> Removal Date"
-msgstr ""
+msgstr "Product verwijdertijd --> Verwijderdatum"
 
 #: ../../inventory/routes/strategies/removal.rst:155
 msgid "Product Life Time --> End of Life Date"
-msgstr ""
+msgstr "Product levensduur --> Einde levensduur datum"
 
 #: ../../inventory/routes/strategies/removal.rst:157
 msgid "Product Alert Time --> Alert Date"
-msgstr ""
+msgstr "Product waarschuwingstijd --> Waarschuwingsdatum"
 
 #: ../../inventory/routes/strategies/removal.rst:159
 msgid ""
@@ -6064,6 +6280,8 @@ msgid ""
 "It will take ``10kg`` from ``LOT0002`` and ``5kg`` from ``LOT0003`` based on"
 " the removal dates."
 msgstr ""
+"Het neemt ``10kg`` van ``LOT0002`` en ``5KG`` van ``LOT0003`` gebaseerd op "
+"de verwijderdatums."
 
 #: ../../inventory/routes/strategies/removal.rst:192
 msgid ":doc:`../../management/reporting/valuation_methods_continental`"
@@ -6081,152 +6299,94 @@ msgstr "Instellingen"
 msgid "Products"
 msgstr "Producten"
 
-#: ../../inventory/settings/products/packages.rst:3
-msgid "How to use packages?"
-msgstr "Hoe verpakkingen te gebruiken?"
+#: ../../inventory/settings/products/strategies.rst:3
+msgid "How to select the right replenishment strategy"
+msgstr "Hoe de correcte bevoorrading strategie te kiezen"
 
-#: ../../inventory/settings/products/packages.rst:8
-#: ../../inventory/settings/products/usage.rst:31
+#: ../../inventory/settings/products/strategies.rst:5
 msgid ""
-"The package is the physical container in which you put one or several "
-"product."
+"Minimum Stock rules and Make to Order have similar consequences but "
+"different rules. They should be used depending on your manufacturing and "
+"delivery strategies."
 msgstr ""
+"Minimale voorraadregels en Maak op Order hebben soortgelijke gevolgen maar "
+"verschillende regels. Ze moeten worden gebruikt, afhankelijk van uw "
+"productie- en levering- strategieën."
 
-#: ../../inventory/settings/products/packages.rst:11
-msgid "By default, Odoo does not take into account the use of it."
-msgstr "Standaard houdt Odoo geen rekening met het gebruiken hiervan."
-
-#: ../../inventory/settings/products/packages.rst:13
+#: ../../inventory/settings/products/strategies.rst:15
 msgid ""
-"Once you activate the option, you will be able to manage one or several "
-"packages when doing your transfers."
+"Minimum Stock rules are used to ensure that you always have the minimum "
+"amount of a product in stock in order to manufacture your products and/or "
+"answer to your customer needs. When the stock level of a product reaches its"
+" minimum the system will automatically generate a procurement order with the"
+" quantity needed to reach the maximum stock level."
 msgstr ""
+"Minimum voorraadregels worden gebruikt om ervoor te zorgen dat u altijd het "
+"minimale aantal producten op voorraad heeft om uw producten te kunnen "
+"vervaardigen en / of te beantwoorden aan uw klantenbehoeften. Wanneer het "
+"voorraadniveau van een product het minimum bereikt, zal het systeem "
+"automatisch een inkooporder genereren met de hoeveelheid die nodig is om het"
+" maximale voorraadniveau te bereiken."
 
-#: ../../inventory/settings/products/packages.rst:19
+#: ../../inventory/settings/products/strategies.rst:24
 msgid ""
-"To configure the use of packages, go to the menu :menuselection:`Inventory "
-"--> Configuration --> Settings`. µ Locate the **Packages** section and tick "
-"**Record packages used on packing: pallets, boxes,...**"
+"The Make to Order function will trigger a Purchase Order of the amount of "
+"the Sales Order related to the product. The system will **not** check the "
+"current stock. This means that a draft purchase order will be generated "
+"regardless of the quantity on hand of the product."
 msgstr ""
+"Met de functie Maak op Order wordt een aankooporder geactiveerd dat gelijk "
+"is aan het aantal bestelde producten. Het systeem zal de huidige voorraad **"
+" niet ** controleren. Dit betekent dat een concept aankooporder wordt "
+"gegenereerd, ongeacht de beschikbare hoeveelheid."
 
-#: ../../inventory/settings/products/packages.rst:27
-#: ../../inventory/shipping/operation/multipack.rst:23
-msgid "Click on **Apply** when you are done."
-msgstr "Klik op **Toepassen** wanneer u klaar bent."
-
-#: ../../inventory/settings/products/packages.rst:30
-msgid "Pack products"
-msgstr "Verpak producten"
-
-#: ../../inventory/settings/products/packages.rst:32
+#: ../../inventory/settings/products/strategies.rst:35
 msgid ""
-"Putting products in packs is usually done when processing warehouses "
-"transfers (receipt, internals or deliveries)."
+"The Minimum Stock Rules configuration is available through your Inventory "
+"module. In the Inventory Control menu select \"Reordering Rule\" in the drop"
+" down menu. There, click on \"Create\" to set minimum and maximum stock "
+"values for a given product."
 msgstr ""
+"De Minimum voorraad regels configuratie is beschikbaar door de Voorraad "
+"module. In het Voorraadbeheer menu selecteer \"Aanvulopdracht regels\" in "
+"het drop down menu. Druk daar op \"Aanmaken\" om minimum en maximum stock "
+"waarden in te geven voor een bepaald product."
 
-#: ../../inventory/settings/products/packages.rst:35
+#: ../../inventory/settings/products/strategies.rst:44
 msgid ""
-"To be able to put products in pack, the status of your transfer has to be "
-"**Available**."
+"Show tooltips for \"minimum quantity\", \"maximum quantity\" and \"quantity "
+"multiple\" fields"
 msgstr ""
+"Toon tooltips voor de velden *minimale hoeveelheid*, *maximale hoeveelheid* "
+"en *meerdere hoeveelheden*"
 
-#: ../../inventory/settings/products/packages.rst:41
+#: ../../inventory/settings/products/strategies.rst:47
 msgid ""
-"In the operation tab, you can put your products into one or multiple "
-"packages."
+"Then, click on your product to access the related product form and, on the "
+"\"Inventory submenu\", do not forget to select a supplier."
 msgstr ""
+"Klik vervolgens op uw product om het gerelateerde productformulier en het "
+"\"Voorraad submenu\" te zien, vergeet geen leverancier aan te duiden."
 
-#: ../../inventory/settings/products/packages.rst:44
-#: ../../inventory/shipping/operation/multipack.rst:50
+#: ../../inventory/settings/products/strategies.rst:54
 msgid ""
-"Choose the quantity you want to put in the first pack in the **Done** "
-"column, then click on the link **Put in Pack**."
+"Don't forget to select the right product type. A consumable can not be "
+"stocked and will thus not be accounted for in the stock valuation."
 msgstr ""
+"Vergeet niet het juiste soort product te selecteren. Een verbruik product "
+"kan niet gestockeerd worden en wordt dus niet gebruikt in de stock "
+"berekening."
 
-#: ../../inventory/settings/products/packages.rst:50
-#: ../../inventory/shipping/operation/multipack.rst:56
-msgid "It will automatically create a pack with the requested quantity."
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:52
-#: ../../inventory/shipping/operation/multipack.rst:58
-msgid "Do the same steps for the other pieces you want to pack in."
-msgstr "Doe dezelfde stap met de andere onderdelen die u wilt inpakken."
-
-#: ../../inventory/settings/products/packages.rst:57
-#: ../../inventory/shipping/operation/multipack.rst:63
-msgid "Click on **Validate** when you are done."
-msgstr "Klik op **Valideren** wanneer u klaar bent."
-
-#: ../../inventory/settings/products/packages.rst:60
-msgid "Whole packages transfers"
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:62
+#: ../../inventory/settings/products/strategies.rst:60
 msgid ""
-"If you are using several locations and/or warehouses, it is possible to "
-"transfer packages with its contents."
+"The Make to Order configuration is available on your product form through "
+"your :menuselection:`Inventory --> Inventory control --> Products` (or any "
+"other module where products are available)."
 msgstr ""
 
-#: ../../inventory/settings/products/packages.rst:68
-msgid ""
-"You need to configure the **Operation Type** to allow moving packages. Go to"
-" :menuselection:`Configuration --> Operations Types`. Tick **Allow moving "
-"packs**:"
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:75
-msgid "Transfer packages"
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:77
-msgid ""
-"Create a transfer order. Choose the source and the destination locations, "
-"then click on **Mark as todo**. Do not put anything under the **Initial "
-"Demand** tab."
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:84
-msgid ""
-"In the Operation tab, click on **Add an item** under the **Package To Move**"
-" section."
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:87
-msgid "Tick the **Done** checkbox to confirm the move of the package :"
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:92
-msgid "When it is finished, click on **Validate**."
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:95
-msgid "Packages traceability"
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:97
-msgid ""
-"To trace a package or check its content, go to :menuselection:`Inventory "
-"Control --> Packages`."
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:103
-msgid "Click on **Package Transfers** to see all its moves."
-msgstr ""
-
-#: ../../inventory/settings/products/packages.rst:106
-#: ../../inventory/settings/products/usage.rst:70
-msgid ":doc:`../../overview/start/setup`"
-msgstr ":doc:`../../overview/start/setup`"
-
-#: ../../inventory/settings/products/packages.rst:107
-msgid ":doc:`usage`"
-msgstr ":doc:`usage`"
-
-#: ../../inventory/settings/products/packages.rst:108
-#: ../../inventory/settings/products/usage.rst:71
-msgid ":doc:`uom`"
-msgstr ":doc:`uom`"
+#: ../../inventory/settings/products/strategies.rst:64
+msgid "On the product form, under Inventory, click on \"Make To Order\"."
+msgstr "Klik in het product scherm onder Inventaris op \"Maak op Order\"."
 
 #: ../../inventory/settings/products/uom.rst:3
 msgid "How to use different units of measure?"
@@ -6244,6 +6404,7 @@ msgstr ""
 msgid ""
 "You can set up Odoo to work with different units of measure for one product."
 msgstr ""
+"U kan Odoo opzetten om te werken met meerdere maateenheden voor een product."
 
 #: ../../inventory/settings/products/uom.rst:19
 msgid ""
@@ -6278,7 +6439,7 @@ msgstr ""
 
 #: ../../inventory/settings/products/uom.rst:42
 msgid "Click on the edit button |edit| to create new unit of measures."
-msgstr ""
+msgstr "Klik op de wijzigen knop |edit| om nieuwe maateenheden aan te maken."
 
 #: ../../inventory/settings/products/uom.rst:46
 msgid "Transfer from one unit to another"
@@ -6301,7 +6462,7 @@ msgstr "In dit voorbeeld zitten we in de eieren markt:"
 
 #: ../../inventory/settings/products/uom.rst:56
 msgid "We buy eggs by trays (30 eggs)"
-msgstr ""
+msgstr "We kopen eieren per schaal (30 eieren)"
 
 #: ../../inventory/settings/products/uom.rst:58
 msgid "We check all eggs individually when receiving it (quality control)"
@@ -6340,7 +6501,7 @@ msgstr "De maateenheid kan ook gewijzigd worden op de inkooporder:"
 
 #: ../../inventory/settings/products/uom.rst:90
 msgid "The quality control is done by unit."
-msgstr ""
+msgstr "De kwaliteitscontrole is gedaan per eenheid."
 
 #: ../../inventory/settings/products/uom.rst:92
 msgid ""
@@ -6421,13 +6582,19 @@ msgstr ""
 msgid "Packages"
 msgstr "Verpakkingen"
 
+#: ../../inventory/settings/products/usage.rst:31
+msgid ""
+"The package is the physical container in which you put one or several "
+"product."
+msgstr ""
+
 #: ../../inventory/settings/products/usage.rst:38
 msgid "Packaging"
 msgstr "Verpakking"
 
 #: ../../inventory/settings/products/usage.rst:40
 msgid "Packaging is the physical container that protects your product."
-msgstr ""
+msgstr "Verpakking in de fysieke container die uw product beschermd."
 
 #: ../../inventory/settings/products/usage.rst:42
 msgid ""
@@ -6437,7 +6604,7 @@ msgstr ""
 
 #: ../../inventory/settings/products/usage.rst:45
 msgid "In Odoo, packagings are just used for indicative purpose."
-msgstr ""
+msgstr "In Odoo worden verpakkingen gebruikt voor indicatieve doeleinden."
 
 #: ../../inventory/settings/products/usage.rst:51
 msgid ""
@@ -6447,7 +6614,7 @@ msgstr ""
 
 #: ../../inventory/settings/products/usage.rst:55
 msgid "When to use packages, packagings or unit of measures ?"
-msgstr ""
+msgstr "Wilt u pakketten, verpakkingen of maateenheden gebruiken?"
 
 #: ../../inventory/settings/products/usage.rst:57
 msgid ""
@@ -6474,9 +6641,13 @@ msgid ""
 "``box`` or in a ``plastic`` wrapping. It is the **package**."
 msgstr ""
 
-#: ../../inventory/settings/products/usage.rst:72
-msgid ":doc:`packages`"
-msgstr ":doc:`packages`"
+#: ../../inventory/settings/products/usage.rst:70
+msgid ":doc:`../../overview/start/setup`"
+msgstr ":doc:`../../overview/start/setup`"
+
+#: ../../inventory/settings/products/usage.rst:71
+msgid ":doc:`uom`"
+msgstr ":doc:`uom`"
 
 #: ../../inventory/settings/products/variants.rst:3
 msgid "Using product variants"
@@ -7358,6 +7529,10 @@ msgid ""
 "**Record packages used on packing: pallets, boxes,...**"
 msgstr ""
 
+#: ../../inventory/shipping/operation/multipack.rst:23
+msgid "Click on **Apply** when you are done."
+msgstr "Klik op **Toepassen** wanneer u klaar bent."
+
 #: ../../inventory/shipping/operation/multipack.rst:29
 #: ../../inventory/shipping/setup/delivery_method.rst:77
 #: ../../inventory/shipping/setup/third_party_shipper.rst:110
@@ -7381,6 +7556,24 @@ msgstr ""
 #: ../../inventory/shipping/operation/multipack.rst:48
 msgid "From here, you can split your delivery into multiple packages."
 msgstr ""
+
+#: ../../inventory/shipping/operation/multipack.rst:50
+msgid ""
+"Choose the quantity you want to put in the first pack in the **Done** "
+"column, then click on the link **Put in Pack**."
+msgstr ""
+
+#: ../../inventory/shipping/operation/multipack.rst:56
+msgid "It will automatically create a pack with the requested quantity."
+msgstr ""
+
+#: ../../inventory/shipping/operation/multipack.rst:58
+msgid "Do the same steps for the other pieces you want to pack in."
+msgstr "Doe dezelfde stap met de andere onderdelen die u wilt inpakken."
+
+#: ../../inventory/shipping/operation/multipack.rst:63
+msgid "Click on **Validate** when you are done."
+msgstr "Klik op **Valideren** wanneer u klaar bent."
 
 #: ../../inventory/shipping/operation/multipack.rst:66
 msgid "Multi-packages with a 3rd party-shipper"
@@ -7520,15 +7713,15 @@ msgstr ""
 
 #: ../../inventory/shipping/setup/dhl_credentials.rst:7
 msgid "A DHL.com SiteID"
-msgstr ""
+msgstr "Een DHL.com SiteID"
 
 #: ../../inventory/shipping/setup/dhl_credentials.rst:9
 msgid "A DHL Password"
-msgstr ""
+msgstr "Een DHL wachtwoord"
 
 #: ../../inventory/shipping/setup/dhl_credentials.rst:11
 msgid "A DHL Account Number"
-msgstr ""
+msgstr "Een DHL rekeningnummer"
 
 #: ../../inventory/shipping/setup/dhl_credentials.rst:15
 msgid ""
@@ -7544,7 +7737,7 @@ msgstr ""
 
 #: ../../inventory/shipping/setup/dhl_credentials.rst:20
 msgid "Getting SiteID and Password for  United States"
-msgstr ""
+msgstr "SiteID en wachtwoord ophalen voor verenigde staten"
 
 #: ../../inventory/shipping/setup/dhl_credentials.rst:22
 msgid ""
@@ -7560,15 +7753,15 @@ msgstr ""
 
 #: ../../inventory/shipping/setup/dhl_credentials.rst:26
 msgid "**SiteID**: CustomerTest"
-msgstr ""
+msgstr "**SiteID**: KlantTest"
 
 #: ../../inventory/shipping/setup/dhl_credentials.rst:28
 msgid "**Password**: alkd89nBV"
-msgstr ""
+msgstr "**Wachtwoord**: alkd89nBV"
 
 #: ../../inventory/shipping/setup/dhl_credentials.rst:30
 msgid "**DHL Account Number**: 803921577"
-msgstr ""
+msgstr "**DHL rekeningnummer**: 803921577"
 
 #: ../../inventory/shipping/setup/third_party_shipper.rst:3
 msgid "How to integrate a third party shipper?"
@@ -7701,23 +7894,23 @@ msgstr ":doc:`../operation/labels`"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:3
 msgid "How to get UPS credentials for integration with Odoo?"
-msgstr ""
+msgstr "Hoe UPS login gegevens krijgen voor integratie met Odoo?"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:5
 msgid "In order to use the Odoo UPS API, you will need:"
-msgstr ""
+msgstr "Om de Odoo UPS API te gebruiken moet u:"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:7
 msgid "A UPS.com user ID and password"
-msgstr ""
+msgstr "Een UPS.com gebruikersid en wachtwoord"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:9
 msgid "A UPS account number"
-msgstr ""
+msgstr "Een UPS rekeningnummer"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:11
 msgid "An Access Key"
-msgstr ""
+msgstr "Een toegangssleutel"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:13
 msgid ""
@@ -7727,7 +7920,7 @@ msgstr ""
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:17
 msgid "Create a UPS Account"
-msgstr ""
+msgstr "Maak een UPS rekening"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:19
 msgid ""
@@ -7775,11 +7968,11 @@ msgstr ""
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:43
 msgid "Click the **My UPS** tab."
-msgstr ""
+msgstr "Klik op het **Mijn UPS** tabblad."
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:45
 msgid "Click the **Account Summary** link."
-msgstr ""
+msgstr "Klik op de **Rekening samenvatting** link."
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:47
 msgid ""
@@ -7796,11 +7989,11 @@ msgstr ""
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:54
 msgid "Click the **Next** button to continue."
-msgstr ""
+msgstr "Klik op de **Volgende** knop om verder te gaan."
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:57
 msgid "Get an Access Key"
-msgstr ""
+msgstr "Krijg een toegangssleutel"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:59
 msgid ""
@@ -7814,18 +8007,21 @@ msgid ""
 "`https://www.ups.com/upsdeveloperkit?loc=en\\_US "
 "<https://www.ups.com/upsdeveloperkit?loc=en_US>`__"
 msgstr ""
+"1. Ga naar de **UPS ontwikkelaars kit** webpagina "
+"`https://www.ups.com/upsdeveloperkit?loc=en\\_US "
+"<https://www.ups.com/upsdeveloperkit?loc=en_US>`__"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:65
 msgid "Log into UPS.com with your user ID and password"
-msgstr ""
+msgstr "Login bij UPS.com met uw gebruikersid en wachtwoord"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:67
 msgid "Click on the link **Request an access key**."
-msgstr ""
+msgstr "Klik op de link **Toegangssleutel aanvragen**."
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:69
 msgid "Verify your contact information"
-msgstr ""
+msgstr "Controleer uw contactgegevens"
 
 #: ../../inventory/shipping/setup/ups_credentials.rst:71
 msgid "Click the **Request Access Key** button."

@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
+# This file is distributed under the same license as the Odoo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Business 10.0\n"
+"Project-Id-Version: Odoo 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-07 09:30+0200\n"
+"POT-Creation-Date: 2018-10-19 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Eddie Lim <bhweelim@yahoo.com>, 2017\n"
+"Last-Translator: 老窦 北京 <2662059195@qq.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "电子商务"
 
 #: ../../ecommerce/getting_started.rst:3
 msgid "Get started"
-msgstr "启动"
+msgstr "开始"
 
 #: ../../ecommerce/getting_started/catalog.rst:3
 msgid "How to customize my catalog page"
@@ -73,7 +73,8 @@ msgid ""
 "and add to cart button. Turn on the following options in *Customize* menu:  "
 "Product Description, Add to Cart, List View (to display product description "
 "better)."
-msgstr "如你的顾客一次购买大量产品，可以启用目录页的购买，加速购买流程。为此，需要添加产品描述和购物车按钮。打开*自定义*菜单的以下选项：产品描述、添加到购物车、查看列表（为了更好地显示产品描述）。"
+msgstr ""
+"如你的顾客一次购买大量产品，可以启用目录页的购买，加速购买流程。为此，需要添加产品描述和购物车按钮。打开*自定义*菜单的以下选项：产品描述、添加到购物车、查看列表（为了更好地显示产品描述）。"
 
 #: ../../ecommerce/getting_started/product_page.rst:3
 msgid "How to build a product page"
@@ -101,31 +102,31 @@ msgstr "查看如何配置以下链接中的产品。"
 
 #: ../../ecommerce/getting_started/product_page.rst:26
 msgid ":doc:`../managing_products/variants`"
-msgstr ""
+msgstr ":doc:`../managing_products/variants`"
 
 #: ../../ecommerce/getting_started/product_page.rst:27
 msgid ":doc:`../../sales/products_prices/taxes`"
-msgstr ""
+msgstr ":doc:`../../sales/products_prices/taxes`"
 
 #: ../../ecommerce/getting_started/product_page.rst:28
 msgid ":doc:`../managing_products/stock`"
-msgstr ""
+msgstr ":doc:`../managing_products/stock`"
 
 #: ../../ecommerce/getting_started/product_page.rst:29
 msgid ":doc:`../maximizing_revenue/cross_selling`"
-msgstr ""
+msgstr ":doc:`../maximizing_revenue/cross_selling`"
 
 #: ../../ecommerce/getting_started/product_page.rst:30
 msgid ":doc:`../maximizing_revenue/reviews`"
-msgstr ""
+msgstr ":doc:`../maximizing_revenue/reviews`"
 
 #: ../../ecommerce/getting_started/product_page.rst:31
 msgid ":doc:`../maximizing_revenue/pricing`"
-msgstr ""
+msgstr ":doc:`../maximizing_revenue/pricing`"
 
 #: ../../ecommerce/getting_started/product_page.rst:32
 msgid ":doc:`../../website/optimize/seo`"
-msgstr ""
+msgstr ":doc:`../../website/optimize/seo`"
 
 #: ../../ecommerce/managing_products.rst:3
 msgid "Manage my products"
@@ -146,7 +147,7 @@ msgstr "产品页默认只显示产品的主要图片。如需展示产品多角
 msgid ""
 "Check *Several images per product* in :menuselection:`Website Admin --> "
 "Configuration --> Settings`."
-msgstr "在menuselection中选择网站管理->配置->设置，勾选*每个产品多张图片*。"
+msgstr "在:menuselection:`网站管理->配置->设置，中选择勾选*每个产品多张图片*。"
 
 #: ../../ecommerce/managing_products/multi_images.rst:13
 msgid ""
@@ -189,7 +190,8 @@ msgid ""
 "If one item is no longer sellable, unpublish it from your website. If it "
 "comes to one particular product variant, deactivate the variant in the "
 "backend (see :doc:`../maximizing_revenue/pricing`)."
-msgstr "如果一个产品下架了，可以从你的网站中抹除。如果产品来自一个特定的产品变量，可以在后端禁用这个变量（参见：doc:`../maximizing_revenue/pricing`）"
+msgstr ""
+"如果一个产品下架了，可以从你的网站中抹除。如果产品来自一个特定的产品变量，可以在后端禁用这个变量（参见：doc:`../maximizing_revenue/pricing`）"
 
 #: ../../ecommerce/managing_products/variants.rst:3
 msgid "How to manage product variants"
@@ -202,7 +204,9 @@ msgid ""
 "and then selects its size and color.  In the example below, the customer "
 "chooses a phone, and then selects the memory; color and Wi-Fi band from the "
 "available options."
-msgstr "产品变量用于向产品页面上的顾客提供同一产品的类似产品，例如，顾客选择了一款T恤及尺码、颜色，下面顾客又从可用选项中选择一款手机、相应的内存卡、颜色和Wi-Fi带宽。"
+msgstr ""
+"产品变量用于向产品页面上的顾客提供同一产品的类似产品，例如，顾客选择了一款T恤及尺码、颜色，下面顾客又从可用选项中选择一款手机、相应的内存卡"
+"、颜色和Wi-Fi带宽。"
 
 #: ../../ecommerce/managing_products/variants.rst:15
 msgid "How to create attributes & variants"
@@ -212,7 +216,7 @@ msgstr "如何创建属性与变量"
 msgid ""
 "Turn on *Products can have several attributes, defining variants (Example: "
 "size, color,...)* in :menuselection:`Sales --> Settings`."
-msgstr "在 menuselection 中选择销售->设置，启用*产品可以有多个属性，定义这些变量（如尺码、颜色等）*。"
+msgstr "在  :menuselection:`销售->设置，中选择启用*产品可以有多个属性，定义这些变量（如尺码、颜色等）*。"
 
 #: ../../ecommerce/managing_products/variants.rst:20
 msgid "Select a product from the Products list, go to the *Variants* tab."
@@ -272,7 +276,7 @@ msgid ""
 "See and edit all the variants from :menuselection:`Sales --> Sales --> "
 "Product Variants` as well. This might be quicker if you manage lots of "
 "variants."
-msgstr "从 menuselection 中选择销售->促销->产品变量，然后编辑所有的变量。如果你管理着多个变量，可能需要加快一点进度。"
+msgstr "从  :menuselection:`销售->促销->产品变量，中选择然后编辑所有的变量。如果你管理着多个变量，可能需要加快一点进度。"
 
 #: ../../ecommerce/managing_products/variants.rst:58
 msgid "How to set specific prices per variant"
@@ -368,7 +372,8 @@ msgid ""
 "Optional products are directly related to the item added to cart (e.g. for "
 "computers: warranty, OS software, extra components). Whenever the main "
 "product is added to cart, such a new screen pops up as an extra step."
-msgstr "可选产品直接与加入购物车的产品相关（如对于电脑而言，质保期、操作系统软件、备件等）。如果主产品被放入购物车，则弹出新的窗口，提示下一个步骤。"
+msgstr ""
+"可选产品直接与加入购物车的产品相关（如对于电脑而言，质保期、操作系统软件、备件等）。如果主产品被放入购物车，则弹出新的窗口，提示下一个步骤。"
 
 #: ../../ecommerce/maximizing_revenue/cross_selling.rst:40
 msgid "To publish optional products:"
@@ -392,7 +397,7 @@ msgstr "加入购物车的可选项的数量与主要产品的数量是一致的
 
 #: ../../ecommerce/maximizing_revenue/pricing.rst:3
 msgid "How to adapt the prices to my website visitors"
-msgstr "如何为我的访问者调整定价"   
+msgstr "如何为我的访问者调整定价"
 
 #: ../../ecommerce/maximizing_revenue/pricing.rst:5
 msgid "This section sheds some light on pricing features of eCommerce app:"
@@ -439,15 +444,15 @@ msgstr "如你在多个国家销售产品，请让顾客选择其自己的币种
 
 #: ../../ecommerce/maximizing_revenue/pricing.rst:34
 msgid ":doc:`../../sales/products_prices/prices/pricing`"
-msgstr ""
+msgstr ":doc:`../../sales/products_prices/prices/pricing`"
 
 #: ../../ecommerce/maximizing_revenue/pricing.rst:35
 msgid ":doc:`../../sales/products_prices/prices/currencies`"
-msgstr ""
+msgstr ":doc:`../../sales/products_prices/prices/currencies`"
 
 #: ../../ecommerce/maximizing_revenue/pricing.rst:36
 msgid ":doc:`promo_code`"
-msgstr ""
+msgstr ":doc:`promo_code`"
 
 #: ../../ecommerce/maximizing_revenue/promo_code.rst:3
 msgid "How to create & share promotional codes"
@@ -468,14 +473,15 @@ msgstr "设置"
 msgid ""
 "Go to :menuselection:`Sales --> Settings` and choose *Advanced pricing based"
 " on formula* for *Sale Price*."
-msgstr "进入：menuselection:促销->设置，在*销售价格*公式中选择*高级定价策略*。"
+msgstr "进入 :menuselection:`促销->设置，在*销售价格*公式中选择*高级定价策略*。"
 
 #: ../../ecommerce/maximizing_revenue/promo_code.rst:14
 msgid ""
 "Go to :menuselection:`Website Admin --> Catalog --> Pricelists` and create a"
 " new pricelist with the discount rule (see :doc:`pricing`). Then enter a "
 "code."
-msgstr "进入：menuselection:网站管理->目录->价格表，创建一个带折扣规则的新价格表（参见doc:`pricing` ，然后输入一个代码。"
+msgstr ""
+"进入 :menuselection:`网站管理->目录->价格表，创建一个带折扣规则的新价格表（参见doc:`pricing` ，然后输入一个代码。"
 
 #: ../../ecommerce/maximizing_revenue/promo_code.rst:21
 msgid ""
@@ -604,7 +610,7 @@ msgstr "在产品Web页面的*自定义*菜单中打开*替代品*。"
 
 #: ../../ecommerce/overview.rst:3
 msgid "Overview"
-msgstr "概述"
+msgstr "概览"
 
 #: ../../ecommerce/overview/introduction.rst:3
 msgid "Introduction to Odoo eCommerce"
@@ -630,7 +636,7 @@ msgstr "定价"
 
 #: ../../ecommerce/overview/introduction.rst:16
 msgid "Taxes"
-msgstr "税金"
+msgstr "税"
 
 #: ../../ecommerce/overview/introduction.rst:17
 msgid "Checkout process"
@@ -650,7 +656,7 @@ msgstr "送货及跟踪"
 
 #: ../../ecommerce/overview/introduction.rst:24
 msgid ":doc:`../../website/publish/domain_name`"
-msgstr ""
+msgstr ":doc:`../../website/publish/domain_name`"
 
 #: ../../ecommerce/publish.rst:3
 msgid "Launch my website"
@@ -659,6 +665,133 @@ msgstr "打开我的网站"
 #: ../../ecommerce/shopper_experience.rst:3
 msgid "Get paid"
 msgstr "付款"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:3
+msgid "How to get paid with Authorize.Net"
+msgstr "如何使用 Authorize.Net 付款"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:5
+msgid ""
+"Authorize.Net is one of the most popular eCommerce payment platforms in "
+"North America. Unlike most of the other payment acquirers compatible with "
+"Odoo, Authorize.Net can be used as `payment gateway "
+"<https://www.authorize.net/solutions/merchantsolutions/pricing/?p=gwo>`__ "
+"only. That way you can use the `payment processor or merchant "
+"<https://www.authorize.net/partners/resellerprogram/processorlist/>`__ that "
+"you like."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:12
+msgid "Create an Authorize.Net account"
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:14
+msgid ""
+"Create an `Authorize.Net account <https://www.authorize.net>`__ by clicking "
+"'Get Started'."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:16
+msgid ""
+"In the pricing page, press *Sign up now* if you want to use Authorize.net as"
+" both payment gateway and merchant. If you want to use your own merchant, "
+"press the related option."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:23
+msgid "Go through the registration steps."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:24
+msgid ""
+"The account is set as a test account by default. You can use this test "
+"account to process a test transaction from Odoo."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:26
+msgid "Once ready, switch to **Production** mode."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:30
+#: ../../ecommerce/shopper_experience/paypal.rst:74
+msgid "Set up Odoo"
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:31
+msgid ""
+"Activate Authorize.Net in Odoo from :menuselection:`Website or Sales or "
+"Accounting --> Settings --> Payment Acquirers`."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:33
+msgid "Enter both your **Login ID** and your **API Transaction Key**."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:39
+msgid ""
+"To get those credentials in Authorize.Net, you can rely on *API Login ID and"
+" Transaction Key* video of `Authorize.Net Video Tutorials "
+"<https://www.authorize.net/videos/>`__. Such videos give meaningful insights"
+" about how to set up your Authorize.Net account according to your needs."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:47
+#: ../../ecommerce/shopper_experience/paypal.rst:102
+msgid "Go live"
+msgstr "激活"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:48
+msgid ""
+"Your configuration is now ready! You can make Authorize.Net visible on your "
+"merchant interface and activate the **Production** mode."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:55
+msgid ""
+"Credentials provided by Authorize.net are different for both test and "
+"production mode. Don't forget to update them in Odoo when you turn on the "
+"production mode."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:61
+msgid "Assess Authorize.Net as payment solution"
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:62
+msgid ""
+"You can test and assess Authorize.Net for free by creating a `developer "
+"account <https://developer.authorize.net>`__."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:64
+msgid ""
+"Once the account created you receive sandbox credentials. Enter them in Odoo"
+" as explained here above and make sure you are still in *Test* mode."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:68
+msgid ""
+"You can also log in to `Authorize.Net sandbox platform "
+"<https://sandbox.authorize.net/>`__ to configure your sandbox account."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:71
+msgid ""
+"To perform ficticious transactions you can use fake card numbers provided in"
+" the `Authorize.Net Testing Guide "
+"<https://developer.authorize.net/hello_world/testing_guide/>`__."
+msgstr ""
+
+#: ../../ecommerce/shopper_experience/authorize.rst:76
+#: ../../ecommerce/shopper_experience/paypal.rst:154
+msgid ":doc:`payment`"
+msgstr ":doc:`payment`"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:77
+#: ../../ecommerce/shopper_experience/payment.rst:111
+#: ../../ecommerce/shopper_experience/paypal.rst:155
+msgid ":doc:`payment_acquirer`"
+msgstr ":doc:`payment_acquirer`"
 
 #: ../../ecommerce/shopper_experience/payment.rst:3
 msgid "How to get paid with payment acquirers"
@@ -715,11 +848,11 @@ msgstr "Adyen"
 
 #: ../../ecommerce/shopper_experience/payment.rst:31
 msgid "Buckaroo"
-msgstr "Buckaroo"
+msgstr "牛仔"
 
 #: ../../ecommerce/shopper_experience/payment.rst:32
 msgid "PayUmoney"
-msgstr "PayUmoney"
+msgstr "付给你钱"
 
 #: ../../ecommerce/shopper_experience/payment.rst:33
 msgid "Sips"
@@ -748,7 +881,8 @@ msgid ""
 "To ease the payment of returning customers, you can let them save and reuse "
 "a credit card if they want to. If so, a payment token will be saved in Odoo."
 " This option is available with Ingenico and Authorize.net."
-msgstr "为便于老顾客付款，你可以让其保存并再次使用信用卡。为此，支付令牌会保存在Odoo中。这一选项需调用Ingenico和Authorize.net。"
+msgstr ""
+"为便于老顾客付款，你可以让其保存并再次使用信用卡。为此，支付令牌会保存在Odoo中。这一选项需调用Ingenico和Authorize.net。"
 
 #: ../../ecommerce/shopper_experience/payment.rst:54
 #: ../../ecommerce/shopper_experience/payment.rst:68
@@ -764,7 +898,8 @@ msgid ""
 "`Odoo Subscription <https://www.odoo.com/page/subscriptions>`__ allows to "
 "bill services automatically on a recurring basis. Along with it, you can "
 "have an automatic debit of the customer's credit card."
-msgstr "Odoo订阅<https://www.odoo.com/page/subscriptions>允许多次发生的服务计费。因此，你可以自动将顾客的信用卡消费记入借方。"
+msgstr ""
+"Odoo订阅<https://www.odoo.com/page/subscriptions>允许多次发生的服务计费。因此，你可以自动将顾客的信用卡消费记入借方。"
 
 #: ../../ecommerce/shopper_experience/payment.rst:66
 msgid "This option is available with Ingenico and Authorize.net."
@@ -817,14 +952,16 @@ msgid ""
 "plans (e.g. `Paypal Installment Plans "
 "<https://developer.paypal.com/docs/classic/paypal-payments-standard"
 "/integration-guide/installment_buttons>`__)."
-msgstr "Odoo还可用于更多的高级付款过程，如分期付款（例如Paypal 分期付款Paypal Installment Plans <https://developer.paypal.com/docs/classic/paypal-payments-standard）。"
+msgstr ""
+"Odoo还可用于更多的高级付款过程，如分期付款（例如Paypal 分期付款Paypal Installment Plans "
+"<https://developer.paypal.com/docs/classic/paypal-payments-standard）。"
 
 #: ../../ecommerce/shopper_experience/payment.rst:102
 msgid ""
 "Such a customization service is made on-demand by our technical experts "
 "based on your own requirements. A business advisor can reach you out for "
-"such matter. `Contact us.<https://www.odoo.com/page/contactus>`__"
-msgstr "我们的技术专家可以按照您自身的要求实现这种自定义服务。可到以下网址联系业务顾问：<https://www.odoo.com/page/contactus>"
+"such matter. `Contact us. <https://www.odoo.com/page/contactus>`__"
+msgstr ""
 
 #: ../../ecommerce/shopper_experience/payment.rst:109
 msgid ":doc:`paypal`"
@@ -833,11 +970,6 @@ msgstr ":doc:`paypal` "
 #: ../../ecommerce/shopper_experience/payment.rst:110
 msgid ":doc:`wire_transfer`"
 msgstr ":doc:`wire_transfer`"
-
-#: ../../ecommerce/shopper_experience/payment.rst:111
-#: ../../ecommerce/shopper_experience/paypal.rst:155
-msgid ":doc:`payment_acquirer`"
-msgstr ":doc:`payment_acquirer`"
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:3
 msgid "How to manage orders paid with payment acquirers"
@@ -874,7 +1006,8 @@ msgid ""
 "*Authorized*: the payment has been authorized but not yet captured. In Odoo,"
 " the order is already confirmed. Once the delivery done, you can capture the"
 " amount from the acquirer interface (or from Odoo if you use Authorize.net)."
-msgstr "*Authorized*状态表示付款已获授权但尚未被抓取。在Odoo中，订单已经被确认了。送货完成后，即可从收款界面（如你使用Authorize.net，可从Odoo）获取数量。"
+msgstr ""
+"*Authorized*状态表示付款已获授权但尚未被抓取。在Odoo中，订单已经被确认了。送货完成后，即可从收款界面（如你使用Authorize.net，可从Odoo）获取数量。"
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:28
 msgid ""
@@ -923,7 +1056,8 @@ msgid ""
 "until you get paid into your bank account (see `How to register credit card "
 "payments "
 "<../../accounting/receivables/customer_payments/credit_cards.html>`__)."
-msgstr "如果选择了这种模式，系统会要求你选择一个付款日记账户以便记录你账簿上的付款。此付款与发票系统连接，支付之后立即进行标记。银行账户收到付款后请选择**银行账户**，如未做选择，可以为收款方创建一个特定的日记账（类别=银行）。这样你就可以跟踪中间账户的在线支付情况，直至银行账户收到款项（参见“如何注册信用卡支付”）。"
+msgstr ""
+"如果选择了这种模式，系统会要求你选择一个付款日记账户以便记录你账簿上的付款。此付款与发票系统连接，支付之后立即进行标记。银行账户收到付款后请选择**银行账户**，如未做选择，可以为收款方创建一个特定的日记账（类别=银行）。这样你就可以跟踪中间账户的在线支付情况，直至银行账户收到款项（参见“如何注册信用卡支付”）。"
 
 #: ../../ecommerce/shopper_experience/payment_acquirer.rst:64
 msgid "Capture the payment after the delivery"
@@ -954,10 +1088,10 @@ msgstr "如何用Paypal收款"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:5
 msgid ""
-"Paypal is the easiest online payment method to configure. It is also the "
+"Paypal is the easiest online payment acquirer to configure. It is also the "
 "only one without any subscription fee. We definitely advise it to any "
 "starter."
-msgstr "Paypal是最容易配置、并且唯一没有订阅费的网上支付方式。我们强烈建议初学者使用Paypal。"
+msgstr ""
 
 #: ../../ecommerce/shopper_experience/paypal.rst:11
 msgid "Set up your Paypal account"
@@ -988,7 +1122,8 @@ msgid ""
 "Turn on **Auto Return** and enter the **Return URL**: "
 "<odoo_instance_url>/shop/confirmation. Verify that this address uses the "
 "correct protocol (HTTP/HTTPS)."
-msgstr "打开**自动返回**，输入**返回URL**<odoo_instance_url>/shop/confirmation。用正确的协议(HTTP/HTTPS)验证这一地址。"
+msgstr ""
+"打开**自动返回**，输入**返回URL**<odoo_instance_url>/shop/confirmation。用正确的协议(HTTP/HTTPS)验证这一地址。"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:36
 msgid ""
@@ -1011,7 +1146,8 @@ msgid ""
 "Now you must change the encoding format of the payment request sent by Odoo "
 "to Paypal. To do so, get back to *My selling tools* and click **PayPal "
 "button language encoding** in *More Selling Tools* section."
-msgstr "现在你必须更改Odoo至Paypal的支付请求的编码格式了。为此，请返回*我的销售工具*并在*更多销售工具*节中点击*PayPal*按钮进行语言编码。"
+msgstr ""
+"现在你必须更改Odoo至Paypal的支付请求的编码格式了。为此，请返回*我的销售工具*并在*更多销售工具*节中点击*PayPal*按钮进行语言编码。"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:58
 msgid ""
@@ -1025,22 +1161,20 @@ msgid ""
 "**Paypal Account Optional** needs to be turned on."
 msgstr "如你希望顾客在没有创建Paypal账户的情况下付款，需要打开**Paypal账户可选**。"
 
-#: ../../ecommerce/shopper_experience/paypal.rst:74
-msgid "Set up Paypal's payment method in Odoo"
-msgstr "在Odoo中设置Paypal付款方式"
-
 #: ../../ecommerce/shopper_experience/paypal.rst:75
 msgid ""
 "Open Paypal setup form in :menuselection:`Website or Sales or Accounting -->"
 " Settings --> Payment Acquirers+`. Enter both your **Email ID** and your "
 "**Merchant ID** and check **Use IPN**."
-msgstr "在 menuselection 中选择：网站或销售或会计->设置->收款方，打开Paypal设置，输入**电邮ID**及**商户ID**，再勾选**使用IPN**。"
+msgstr ""
+"在 "
+":menuselection:`网站或销售或会计->设置->收款方，中选择打开Paypal设置，输入**电邮ID**及**商户ID**，再勾选**使用IPN**。"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:82
 msgid ""
 "They are both provided in your Paypal profile, under :menuselection:`My "
 "business info`."
-msgstr "你的Paypal账户同时具备两个参数，见menuselection:`My business info`"
+msgstr "你的Paypal账户同时具备两个参数，见:menuselection:`My business info`"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:85
 msgid ""
@@ -1052,7 +1186,7 @@ msgstr "在Odoo（来自*自动返回*选项）中输入**身份令牌**，为�
 msgid ""
 "Then, go to :menuselection:`Settings --> Technical --> Parameters --> System"
 " Parameters` and create a parameter with following values:"
-msgstr "然后在 menuselection 中选择设置->技术->参数->系统参数，用以下值创建一个参数："
+msgstr "然后在 :menuselection:`设置->技术->参数->系统参数，中选择用以下值创建一个参数："
 
 #: ../../ecommerce/shopper_experience/paypal.rst:94
 msgid "Key: payment_paypal.pdt_token"
@@ -1061,10 +1195,6 @@ msgstr " Key: payment_paypal.pdt_token "
 #: ../../ecommerce/shopper_experience/paypal.rst:95
 msgid "Value: your Paypal *Identity Token*"
 msgstr "Value: 你的Paypal *身份识别令牌*"
-
-#: ../../ecommerce/shopper_experience/paypal.rst:102
-msgid "Go live"
-msgstr "激活"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:103
 msgid ""
@@ -1135,15 +1265,12 @@ msgid ""
 "*Authorize & capture the amount, confirm the SO and auto-validate the "
 "invoice on acquirer confirmation*. Otherwise a confirmed invoice will be "
 "automatically generated when the transaction is completed."
-msgstr "在Odoo中输入你的沙盒证书，确保Paypal仍然设置在*测试*模式。同时确保Paypal的确认模式不是*授权并获取数量，确认SO和自动验证收款方确认发票*，否则交易完成后，将会自动生成确认的发票。"
+msgstr ""
+"在Odoo中输入你的沙盒证书，确保Paypal仍然设置在*测试*模式。同时确保Paypal的确认模式不是*授权并获取数量，确认SO和自动验证收款方确认发票*，否则交易完成后，将会自动生成确认的发票。"
 
 #: ../../ecommerce/shopper_experience/paypal.rst:150
 msgid "Run a test transaction from Odoo using the sandbox personal account."
 msgstr "用沙盒个人账号从Odoo中运行一笔测试交易。"
-
-#: ../../ecommerce/shopper_experience/paypal.rst:154
-msgid ":doc:`payment`"
-msgstr ":doc:`payment`"
 
 #: ../../ecommerce/shopper_experience/portal.rst:3
 msgid "How customers can access their customer account"
@@ -1156,7 +1283,8 @@ msgid ""
 " suggested to sign up (name, email, password) when the order is placed, and "
 "not before. Indeed, nothing is more annoying than going through a signup "
 "process before buying something."
-msgstr "您的客户从未如此轻松地访问他们顾客的账户。忘掉那些数不清的注册表格吧，有了Odoo，注册步骤就像123一样轻松简单。以前会要求在订单生成后注册用户名、电邮和密码，但现在不同了。的确，买点东西还要填写一堆注册信息太麻烦了。"
+msgstr ""
+"您的客户从未如此轻松地访问他们顾客的账户。忘掉那些数不清的注册表格吧，有了Odoo，注册步骤就像123一样轻松简单。以前会要求在订单生成后注册用户名、电邮和密码，但现在不同了。的确，买点东西还要填写一堆注册信息太麻烦了。"
 
 #: ../../ecommerce/shopper_experience/portal.rst:14
 msgid "Sign up"
@@ -1200,7 +1328,8 @@ msgid ""
 "providing your customers with your bank details so they can pay on their "
 "own. This is very easy to start with but slow and inefficient process-wise. "
 "Opt for payment acquirers as soon as you can!"
-msgstr "**电汇**是默认的可用付款方式，用于向顾客提供你的银行信息，以便让他们通过银行付款。这种方式简单易懂但效率缓慢，还是尽快采用网上支付方式吧！"
+msgstr ""
+"**电汇**是默认的可用付款方式，用于向顾客提供你的银行信息，以便让他们通过银行付款。这种方式简单易懂但效率缓慢，还是尽快采用网上支付方式吧！"
 
 #: ../../ecommerce/shopper_experience/wire_transfer.rst:13
 msgid "How to provide customers with payment instructions"

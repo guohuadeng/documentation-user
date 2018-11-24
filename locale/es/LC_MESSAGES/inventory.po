@@ -1,16 +1,40 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
+# This file is distributed under the same license as the Odoo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2018
+# Carlos Lopez <celm1990@hotmail.com>, 2018
+# David Sanchez <david.sanchez@jarsa.com.mx>, 2018
+# Katerina Katapodi <katerinakatapodi@gmail.com>, 2018
+# Pedro M. Baeza <pedro.baeza@gmail.com>, 2018
+# David Arnold <blaggacao@users.noreply.github.com>, 2018
+# Nicolás Broggi <rnbroggi@gmail.com>, 2018
+# Javier Sabena <jsabena@gmail.com>, 2018
+# eduardo mendoza <emendozajz@gmail.com>, 2018
+# Martin Trigaux, 2018
+# Lina Maria Avendaño Carvajal <lina8823@gmail.com>, 2018
+# Luis M. Ontalba <luis.martinez@tecnativa.com>, 2018
+# miguelchuga <miguelchuga@gmail.com>, 2018
+# Pablo Rojas <rojaspablo88@gmail.com>, 2018
+# AleEscandon <alejandra.escandon@jarsa.com.mx>, 2018
+# Paloma Yazmin Reyes Morales <paloma.reyes@jarsa.com.mx>, 2018
+# Antonio Trueba, 2018
+# Nefi Lopez Garcia <nlopezg87@gmail.com>, 2018
+# Juan Carlos Daniel Fernandez <estudiofaz@gmail.com>, 2018
+# Julián Andrés Osorio López <mcjulian1107@gmail.com>, 2018
+# Miguel Orueta <mo@landoo.es>, 2018
+# Miquel Torner <miq@odoo.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Business 10.0\n"
+"Project-Id-Version: Odoo 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-16 15:59+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Julián Andrés Osorio López <mcjulian1107@gmail.com>, 2017\n"
+"POT-Creation-Date: 2018-11-07 15:38+0100\n"
+"PO-Revision-Date: 2018-10-19 08:15+0000\n"
+"Last-Translator: Miquel Torner <miq@odoo.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -379,7 +403,7 @@ msgstr ""
 
 #: ../../inventory/barcode/setup.rst:3
 msgid "Setup"
-msgstr "Establecer"
+msgstr "Configurar"
 
 #: ../../inventory/barcode/setup/hardware.rst:3
 msgid "Set up your barcode scanner"
@@ -526,7 +550,7 @@ msgid ""
 msgstr ""
 
 #: ../../inventory/barcode/setup/software.rst:19
-msgid ":ref:`Document:` |download_barcode|"
+msgid "Document: |download_barcode|"
 msgstr ""
 
 #: ../../inventory/barcode/setup/software.rst:23
@@ -539,18 +563,12 @@ msgid ""
 " that your products are encoded in Odoo along with their barcodes. If this "
 "is not already done, you can fill in the products barcodes through a handy "
 "interface. Go to :menuselection:`Inventory --> Configuration --> Settings` "
-"and click the **Configure Product Barcodes** button. This interface can also"
-" be accessed via the planner."
+"and click :menuselection:`Operations --> Barcode Scanner`. Click Save, and "
+"go back into the previous screen to click Configure Product Barcodes.  This "
+"interface can also be accessed via the planner."
 msgstr ""
-"Para completar una recogida o para realizar el inventario, necesita "
-"asegurarse de que sus productos están codificados en Odoo junto con sus "
-"códigos de barras. Si ya no se ha hecho, puede llenar los códigos de barras "
-"en los productos a través de una interface práctica. Vaya a "
-":menuselection:`Inventario --> Configuración --> Ajustes` y de clic en el "
-"botón **Configurar Códigos de Barra de Productos**. Esta interface también "
-"puede ser accedida a través de la agenda."
 
-#: ../../inventory/barcode/setup/software.rst:37
+#: ../../inventory/barcode/setup/software.rst:39
 msgid ""
 "Product variants: be careful to add barcodes directly on the variant, and "
 "not the template product (otherwise you won't be able to differentiate "
@@ -560,11 +578,11 @@ msgstr ""
 "no a la plantilla de producto (de lo contrario no sería capaz de "
 "diferenciarlos) "
 
-#: ../../inventory/barcode/setup/software.rst:42
+#: ../../inventory/barcode/setup/software.rst:44
 msgid "Set locations barcodes"
 msgstr "Configurar localizaciones de código de barras"
 
-#: ../../inventory/barcode/setup/software.rst:47
+#: ../../inventory/barcode/setup/software.rst:49
 msgid ""
 "If you manage multiple locations, you will find useful to attribute a "
 "barcode to each location and stick it on the location. You can configure the"
@@ -582,7 +600,7 @@ msgstr ""
 "de barra de las ubicaciones. Hay 4 códigos de barra por página, organizados "
 "de forma que es conveniente imprimir en papel adhesivo."
 
-#: ../../inventory/barcode/setup/software.rst:56
+#: ../../inventory/barcode/setup/software.rst:58
 msgid ""
 "Example of location naming: **warehouse short name** - **location short "
 "name** - (**Corridor X** - **Shelf Y** - **Height Z**) Example: A032-025-133"
@@ -591,11 +609,11 @@ msgstr ""
 "corto de ubicación** - (**Corredor X** - **Estantería Y** - **Altura Z**) "
 "Ejemplo: A032-025-133"
 
-#: ../../inventory/barcode/setup/software.rst:63
+#: ../../inventory/barcode/setup/software.rst:65
 msgid "Barcode formats"
 msgstr "Formato de código de barras"
 
-#: ../../inventory/barcode/setup/software.rst:65
+#: ../../inventory/barcode/setup/software.rst:67
 msgid ""
 "Most retail products use EAN-13 barcodes. They cannot be made up without "
 "proper authorization: you must pay the International Article Numbering "
@@ -608,7 +626,7 @@ msgstr ""
 "código EAN (es por esto que dos productos en una tienda nunca tendrán el "
 "mismo código EAN)."
 
-#: ../../inventory/barcode/setup/software.rst:70
+#: ../../inventory/barcode/setup/software.rst:72
 msgid ""
 "Still, as Odoo supports any string as a barcode, so you can always define "
 "your own barcode format for internal use."
@@ -826,10 +844,12 @@ msgstr ""
 "dependiendo de sus estrategias de producción y entrega."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:10
+#: ../../inventory/settings/products/strategies.rst:10
 msgid "Terminology"
 msgstr "Terminología"
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:13
+#: ../../inventory/settings/products/strategies.rst:13
 msgid "Minimum stock rule"
 msgstr "Regla de stock mínimo"
 
@@ -850,6 +870,8 @@ msgstr ""
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:22
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:56
+#: ../../inventory/settings/products/strategies.rst:22
+#: ../../inventory/settings/products/strategies.rst:58
 msgid "Make to Order"
 msgstr "Orden bajo pedido"
 
@@ -889,8 +911,7 @@ msgstr ""
 #: ../../inventory/routes/costing/landed_costs.rst:18
 #: ../../inventory/routes/strategies/putaway.rst:23
 #: ../../inventory/routes/strategies/removal.rst:18
-#: ../../inventory/settings/products/packages.rst:17
-#: ../../inventory/settings/products/packages.rst:66
+#: ../../inventory/settings/products/strategies.rst:30
 #: ../../inventory/settings/products/uom.rst:17
 #: ../../inventory/settings/products/variants.rst:114
 #: ../../inventory/settings/warehouses/location_creation.rst:6
@@ -904,6 +925,7 @@ msgid "Configuration"
 msgstr "Configuración"
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:33
+#: ../../inventory/settings/products/strategies.rst:33
 msgid "Minimum stock rules"
 msgstr "Reglas de stock mínimo"
 
@@ -929,17 +951,17 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the "
 "orderpoint without removing it."
 msgstr ""
-"Si el campo activo se desmarca, permite ocultar la regla de stock mínimo sin"
-" eliminarla."
+"Si el campo activo se establece a Falso, permite ocultar la regla de stock "
+"mínimo sin eliminarla."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid "Product Unit of Measure"
 msgstr "Unidad de medida del producto"
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
-msgid "Default Unit of Measure used for all stock operation."
+msgid "Default unit of measure used for all stock operations."
 msgstr ""
-"Unidad de medida por defecto utilizada para todas las operaciones de stock."
+"Unidad de medida por defecto utilizada para todas las operaciones de stock"
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid "Procurement Group"
@@ -948,13 +970,9 @@ msgstr "Grupo de abastecimiento"
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid ""
 "Moves created through this orderpoint will be put in this procurement group."
-" If none is given, the moves generated by procurement rules will be grouped "
-"into one big picking."
+" If none is given, the moves generated by stock rules will be grouped into "
+"one big picking."
 msgstr ""
-"Los movimientos creados por esta orden de abastecimiento serán colocados en "
-"este grupo de abastecimiento. Si no se proporciona ningún grupo, los "
-"movimientos generados por las reglas de abastecimiento serán agrupados en un"
-" gran albarán."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid "Minimum Quantity"
@@ -966,9 +984,9 @@ msgid ""
 " Odoo generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
 msgstr ""
-"Cuando las existencias virtuales estén por debajo de la cantidad mínima "
-"especificada en este campo, Odoo generará un abastecimiento para llevar la "
-"cantidad prevista a la cantidad máxima."
+"Cuando el stock virtual esté por debajo de la cantidad mínima especificada "
+"en este campo, Odoo generará un abastecimiento para llevar la cantidad "
+"prevista a la cantidad máxima."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid "Maximum Quantity"
@@ -980,9 +998,9 @@ msgid ""
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"Cuando las existencias virtuales estén por debajo de la cantidad, Odoo "
-"generará un abastecimiento para llevar la cantidad prevista a la cantidad "
-"especificada como aquí como máxima."
+"Cuando el stock virtual esté por debajo de la cantidad, Odoo generará un "
+"abastecimiento para llevar la cantidad prevista a la cantidad especificada "
+"como aquí como máxima."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:0
 msgid "Quantity Multiple"
@@ -1044,10 +1062,12 @@ msgstr ""
 "En la forma de producto, bajo **Inventario**, clic en **Orden bajo Pedido**."
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:68
+#: ../../inventory/settings/products/strategies.rst:70
 msgid "Choice between the two options"
 msgstr "Elegir entre las dos opciones "
 
 #: ../../inventory/management/adjustment/min_stock_rule_vs_mto.rst:70
+#: ../../inventory/settings/products/strategies.rst:72
 msgid ""
 "The choice between the two options is thus dependent of your inventory "
 "strategy. If you prefer to have a buffer and always have at least a minimum "
@@ -1087,7 +1107,6 @@ msgstr "¿Cómo cancelo una órden de entrega?"
 #: ../../inventory/routes/costing/landed_costs.rst:6
 #: ../../inventory/routes/strategies/putaway.rst:6
 #: ../../inventory/routes/strategies/removal.rst:6
-#: ../../inventory/settings/products/packages.rst:6
 #: ../../inventory/settings/products/uom.rst:6
 #: ../../inventory/shipping/operation/cancel.rst:6
 #: ../../inventory/shipping/operation/invoicing.rst:6
@@ -2985,8 +3004,8 @@ msgstr ""
 "para el siguiente paso."
 
 #: ../../inventory/management/incoming/two_steps.rst:81
-msgid "How to to transfer the receipt to your stock ?"
-msgstr "¿Cómo transferir el recibo a sus existencias?"
+msgid "How to transfer the receipt to your stock ?"
+msgstr ""
 
 #: ../../inventory/management/incoming/two_steps.rst:83
 msgid ""
@@ -3497,6 +3516,65 @@ msgstr ""
 msgid "Miscellaneous Operations"
 msgstr "Operaciones varias"
 
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:2
+msgid "Immediate & Planned Transfers"
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:4
+msgid ""
+"In Odoo, you can create two types of transfers: immediate or planned "
+"transfers."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:8
+msgid "Immediate Transfers"
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:10
+msgid ""
+"When you create a transfer manually, it is by default an immediate transfer."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:13
+msgid ""
+"In the case of an immediate transfer, you directly encode the products and "
+"quantities you are processing, there is no reservation that applies. This is"
+" why the column \"Initial Demand\" is not editable. You only fill in the "
+"column \"Done\" for the quantities."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:18
+msgid ""
+"This is for example used when you are transferring goods from a location A "
+"to a location B and that this is not planned (you are processing the "
+"transfer right now)."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:23
+msgid "Planned Transfers"
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:25
+msgid ""
+"When a transfer is generated automatically (from a sales order or purchase "
+"order for example), it is a planned transfer. This means that there is an "
+"initial demand and that reservation applies on this initial demand."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:30
+msgid ""
+"If you want to create a planned transfer manually, you can do it from the "
+"inventory dashboard."
+msgstr ""
+
+#: ../../inventory/management/misc/immediate_planned_transfers.rst:36
+msgid ""
+"In that case, you will have to enter the initial demand first (how many "
+"units are you supposed to proceed), then to mark your transfer as to do. "
+"Once this is done, you will be able to reserve the products and to process "
+"the transfer."
+msgstr ""
+
 #: ../../inventory/management/misc/owned_stock.rst:3
 msgid "How to manage stock that you don't own?"
 msgstr "¿Cómo administrar existencias que no le pertenecen?"
@@ -3728,12 +3806,9 @@ msgstr ""
 #: ../../inventory/management/misc/scrap.rst:30
 msgid ""
 "To create an extra scrap location, Go to :menuselection:`Inventory --> "
-"Configuration --> Setting` and check **Manage several locations per "
+"Configuration --> Settings` and check **Manage several locations per "
 "warehouse**, then click on **Apply**."
 msgstr ""
-"Para crear una ubicación de desecho adicional, Vaya a "
-":menuselection:`Inventario --> Configuración --> Ajustes` y marque "
-"**Administrar varias ubicaciones por bodega**, luego de clic en **Aplicar**."
 
 #: ../../inventory/management/misc/scrap.rst:38
 msgid ""
@@ -3809,10 +3884,8 @@ msgstr "3) Desechar desde transferencias internas (pestaña Demanda Inicial)."
 #: ../../inventory/management/misc/scrap.rst:84
 msgid ""
 "To scrap product from internal transfer, Go to :menuselection:`Inventory -->"
-" Dashboard --> Receipts`"
+" Dashboard --> Internal Transfers`"
 msgstr ""
-"Para desechar el producto desde transferencias internas, Vaya a "
-":menuselection:`Inventario --> Tablero --> Recibos`."
 
 #: ../../inventory/management/misc/scrap.rst:90
 msgid ""
@@ -3837,11 +3910,8 @@ msgstr ""
 msgid ""
 "To allow change scrap location on wizard, you have to select **Manage "
 "several location per warehouse** in the settings at "
-":menuselection:`Inventory --> Configuration --> Setting`"
+":menuselection:`Inventory --> Configuration --> Settings`"
 msgstr ""
-"Para permitir el cambio de la ubicación de desecho en el asistente, debe "
-"seleccionar en los ajustes **Administrar varias ubicaciones por bodega** en "
-":menuselection:`Inventario --> Configuración --> Ajustes`."
 
 #: ../../inventory/management/reporting.rst:3
 msgid "Valuation Methods"
@@ -4624,14 +4694,18 @@ msgstr ""
 
 #: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:347
 msgid ""
-"Revenues/Expenses: defined by default on product's internal category and can"
-" be set in product form (Accounting tab) as a specific replacement value"
+"Revenues: defined on the product category as a default, or specifically to a"
+" specific product."
 msgstr ""
-"Ingresos/Gastos: definidos por defecto en la categoría interna de los "
-"productos y pueden ser configurados en el formulario del producto (Pestaña "
-"de Contabilidad) como un valor específico de reemplazo"
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:351
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:350
+msgid ""
+"Expenses: this is where you should set the \"Cost of Goods Sold\" account. "
+"Defined on the product category as a default value, or specifically on the "
+"product form."
+msgstr ""
+
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:354
 msgid ""
 "Goods Received Not Purchased: to set as Stock Input Account in product's "
 "internal category"
@@ -4639,7 +4713,7 @@ msgstr ""
 "Mercancía Recibida No Comprada: para configurar la Cuenta de Entrada de "
 "Inventario en la categoría interna del producto"
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:354
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:357
 msgid ""
 "Goods Issued Not Invoiced: to set as Stock Output Account in product's "
 "internal category"
@@ -4647,7 +4721,7 @@ msgstr ""
 "Mercancías Expedidas No Facturadas: para configurar la Cuenta de Salida de "
 "Inventario en la categoría interna del producto"
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:357
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:360
 #: ../../inventory/management/reporting/valuation_methods_continental.rst:352
 msgid ""
 "Inventory: to set as Stock Valuation Account in product's internal category"
@@ -4655,7 +4729,7 @@ msgstr ""
 "Inventario: para configurar la Cuenta de Valoración de Inventario en la "
 "categoría interna del producto"
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:359
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:362
 msgid ""
 "Price Difference: to set in product's internal category or in product form "
 "as a specific replacement value"
@@ -4663,18 +4737,18 @@ msgstr ""
 "Diferencia de Precio: para configurar la categoría interna del producto o en"
 " el formulario del producto como un valor específico de reemplazo"
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:364
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:367
 #: ../../inventory/management/reporting/valuation_methods_continental.rst:356
 msgid ":doc:`../../routes/strategies/removal`"
 msgstr ":doc:`../../rutas/estrategias/traslado`"
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:365
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:368
 #: ../../inventory/management/reporting/valuation_methods_continental.rst:357
 msgid ":doc:`../../../accounting/others/inventory/avg_price_valuation`"
 msgstr ""
 ":doc:`../../../contabilidad/otros/inventario/valoración_precio_promedio`"
 
-#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:366
+#: ../../inventory/management/reporting/valuation_methods_anglo_saxon.rst:369
 #: ../../inventory/management/reporting/valuation_methods_continental.rst:358
 msgid ":doc:`../../routes/costing/landed_costs`"
 msgstr ":doc:`../../rutas/costeo/costos_en_destino`"
@@ -4888,8 +4962,8 @@ msgid "Main Concepts"
 msgstr "Conceptos Principales"
 
 #: ../../inventory/overview/concepts/double-entry.rst:5
-msgid "Double-Entry Inventory Management"
-msgstr "Administración de Doble-Entrada de Inventario"
+msgid "Introduction to Inventory Management"
+msgstr ""
 
 #: ../../inventory/overview/concepts/double-entry.rst:7
 msgid ""
@@ -5380,7 +5454,7 @@ msgstr "Órden de Entrega"
 
 #: ../../inventory/overview/concepts/double-entry.rst:255
 msgid "Purchase Order"
-msgstr "Órden de compra"
+msgstr "Pedido de compra"
 
 #: ../../inventory/overview/concepts/double-entry.rst:256
 msgid "..."
@@ -6681,7 +6755,7 @@ msgstr "Gestionar cadenas de fabricación de productos"
 
 #: ../../inventory/routes/concepts/use_routes.rst:13
 msgid "Manage default locations per product"
-msgstr "Gestiona ubicaciones por defecto por producto"
+msgstr "Gestiona ubicaciones predeterminadas por producto"
 
 #: ../../inventory/routes/concepts/use_routes.rst:15
 msgid ""
@@ -6947,7 +7021,7 @@ msgstr ""
 
 #: ../../inventory/routes/costing/landed_costs.rst:40
 msgid "Landed Cost Types"
-msgstr "Tipos de Costos en Destino"
+msgstr "Tipos de gastos de envío"
 
 #: ../../inventory/routes/costing/landed_costs.rst:42
 msgid ""
@@ -6960,7 +7034,7 @@ msgstr ""
 ":menuselection:`Inventario --> Configuración --> Tipos de costos en "
 "destino`."
 
-#: ../../inventory/routes/costing/landed_costs.rst:52
+#: ../../inventory/routes/costing/landed_costs.rst:50
 msgid ""
 "Landed costs are only possible for products configured in real time "
 "valuation with real price costing method. The costing method is configured "
@@ -6970,11 +7044,11 @@ msgstr ""
 "valoración en tiempo real con método de costeo de precio real. Este método "
 "de costeo es configurado en la categoría del producto."
 
-#: ../../inventory/routes/costing/landed_costs.rst:57
+#: ../../inventory/routes/costing/landed_costs.rst:55
 msgid "Link landed costs to a transfer"
 msgstr "Vincular los costos en destino a una transferencia"
 
-#: ../../inventory/routes/costing/landed_costs.rst:59
+#: ../../inventory/routes/costing/landed_costs.rst:57
 msgid ""
 "To calculate landed costs, go to :menuselection:`Inventory --> Inventory "
 "Control --> Landed Costs`."
@@ -6982,7 +7056,7 @@ msgstr ""
 "Para calcular los costos en destino, vaya a :menuselection:`Inventario --> "
 "Control de Inventario --> Costos en Destino`."
 
-#: ../../inventory/routes/costing/landed_costs.rst:62
+#: ../../inventory/routes/costing/landed_costs.rst:60
 msgid ""
 "Click on the **Create** button and select the picking(s) you want to "
 "attribute landed costs."
@@ -6990,14 +7064,14 @@ msgstr ""
 "De clic en el botón **Crear** y seleccione el/los envío(s) al/los que desee "
 "atribuir costos en destino."
 
-#: ../../inventory/routes/costing/landed_costs.rst:68
+#: ../../inventory/routes/costing/landed_costs.rst:66
 msgid ""
 "Select the account journal in which to post the landed costs. We recommend "
 "you to create a specific journal for landed costs. Therefore it will be "
 "easier to keep track of your postings."
 msgstr ""
 
-#: ../../inventory/routes/costing/landed_costs.rst:75
+#: ../../inventory/routes/costing/landed_costs.rst:73
 msgid ""
 "Click the **Compute** button to see how the landed costs will be split "
 "across the picking lines."
@@ -7005,7 +7079,7 @@ msgstr ""
 "Haga clic en el botón **Calcular** para ver como los costos en destino serán"
 " repartidos a través de las líneas de envíos."
 
-#: ../../inventory/routes/costing/landed_costs.rst:81
+#: ../../inventory/routes/costing/landed_costs.rst:79
 msgid ""
 "To confirm the landed costs attribution, click on the **Validate** button."
 msgstr ""
@@ -7486,188 +7560,76 @@ msgstr ":doc:`../../administración/reportes/métodos_valoración_anglosajón`"
 
 #: ../../inventory/settings.rst:3
 msgid "Settings"
-msgstr "Configuración"
+msgstr "Ajustes"
 
 #: ../../inventory/settings/products.rst:3
 msgid "Products"
 msgstr "Productos"
 
-#: ../../inventory/settings/products/packages.rst:3
-msgid "How to use packages?"
-msgstr "¿Cómo usar paquetes?"
+#: ../../inventory/settings/products/strategies.rst:3
+msgid "How to select the right replenishment strategy"
+msgstr ""
 
-#: ../../inventory/settings/products/packages.rst:8
-#: ../../inventory/settings/products/usage.rst:31
+#: ../../inventory/settings/products/strategies.rst:5
 msgid ""
-"The package is the physical container in which you put one or several "
-"product."
+"Minimum Stock rules and Make to Order have similar consequences but "
+"different rules. They should be used depending on your manufacturing and "
+"delivery strategies."
 msgstr ""
-"El paquete es el contenedor físico en el cual Ud. coloca uno o varios "
-"productos."
 
-#: ../../inventory/settings/products/packages.rst:11
-msgid "By default, Odoo does not take into account the use of it."
-msgstr "Por defecto, Odoo no toma en cuenta el uso del mismo."
-
-#: ../../inventory/settings/products/packages.rst:13
+#: ../../inventory/settings/products/strategies.rst:15
 msgid ""
-"Once you activate the option, you will be able to manage one or several "
-"packages when doing your transfers."
+"Minimum Stock rules are used to ensure that you always have the minimum "
+"amount of a product in stock in order to manufacture your products and/or "
+"answer to your customer needs. When the stock level of a product reaches its"
+" minimum the system will automatically generate a procurement order with the"
+" quantity needed to reach the maximum stock level."
 msgstr ""
-"Una vez Ud. active la opción, podrá administrar uno o más paquetes cuando "
-"haga sus transferencias."
 
-#: ../../inventory/settings/products/packages.rst:19
+#: ../../inventory/settings/products/strategies.rst:24
 msgid ""
-"To configure the use of packages, go to the menu :menuselection:`Inventory "
-"--> Configuration --> Settings`. µ Locate the **Packages** section and tick "
-"**Record packages used on packing: pallets, boxes,...**"
+"The Make to Order function will trigger a Purchase Order of the amount of "
+"the Sales Order related to the product. The system will **not** check the "
+"current stock. This means that a draft purchase order will be generated "
+"regardless of the quantity on hand of the product."
 msgstr ""
-"Para configurar el uso de paquetes, vaya al menú :menuselection:`Inventario "
-"--> Configuración --> Ajustes`. Localice la sección **Paquetes** y marque "
-"**Registrar paquetes usados en empaque: pallets, cajas,...**"
 
-#: ../../inventory/settings/products/packages.rst:27
-#: ../../inventory/shipping/operation/multipack.rst:23
-msgid "Click on **Apply** when you are done."
-msgstr "De clic en **Aplicar** cuando finalice."
-
-#: ../../inventory/settings/products/packages.rst:30
-msgid "Pack products"
-msgstr "Empacar productos"
-
-#: ../../inventory/settings/products/packages.rst:32
+#: ../../inventory/settings/products/strategies.rst:35
 msgid ""
-"Putting products in packs is usually done when processing warehouses "
-"transfers (receipt, internals or deliveries)."
+"The Minimum Stock Rules configuration is available through your Inventory "
+"module. In the Inventory Control menu select \"Reordering Rule\" in the drop"
+" down menu. There, click on \"Create\" to set minimum and maximum stock "
+"values for a given product."
 msgstr ""
-"Poner productos en paquetes es finalizado usualmente cuando se procesan "
-"transferencias entre bodegas (recibo, internos o entregas)."
 
-#: ../../inventory/settings/products/packages.rst:35
+#: ../../inventory/settings/products/strategies.rst:44
 msgid ""
-"To be able to put products in pack, the status of your transfer has to be "
-"**Available**."
+"Show tooltips for \"minimum quantity\", \"maximum quantity\" and \"quantity "
+"multiple\" fields"
 msgstr ""
-"Para poder poner productos en paquetes, el estado de su transferencia tiene "
-"que ser **Disponible**."
 
-#: ../../inventory/settings/products/packages.rst:41
+#: ../../inventory/settings/products/strategies.rst:47
 msgid ""
-"In the operation tab, you can put your products into one or multiple "
-"packages."
+"Then, click on your product to access the related product form and, on the "
+"\"Inventory submenu\", do not forget to select a supplier."
 msgstr ""
-"En la pestaña de operaciones, puede poner sus productos dentro de uno o "
-"multiples paquetes."
 
-#: ../../inventory/settings/products/packages.rst:44
-#: ../../inventory/shipping/operation/multipack.rst:50
+#: ../../inventory/settings/products/strategies.rst:54
 msgid ""
-"Choose the quantity you want to put in the first pack in the **Done** "
-"column, then click on the link **Put in Pack**."
+"Don't forget to select the right product type. A consumable can not be "
+"stocked and will thus not be accounted for in the stock valuation."
 msgstr ""
-"Elija la cantidad que desea poner en el primer paquete en la columna "
-"**Realizado**, luego de clic en el vinculo **Ponerlo en Paquete**."
 
-#: ../../inventory/settings/products/packages.rst:50
-#: ../../inventory/shipping/operation/multipack.rst:56
-msgid "It will automatically create a pack with the requested quantity."
-msgstr "Automáticamente creará un paquete con la cantidad requerida."
-
-#: ../../inventory/settings/products/packages.rst:52
-#: ../../inventory/shipping/operation/multipack.rst:58
-msgid "Do the same steps for the other pieces you want to pack in."
-msgstr "Realice los mismos pasos para las otras piezas que desea empacar."
-
-#: ../../inventory/settings/products/packages.rst:57
-#: ../../inventory/shipping/operation/multipack.rst:63
-msgid "Click on **Validate** when you are done."
-msgstr "De clic en **Validar** una vez que este listo."
-
-#: ../../inventory/settings/products/packages.rst:60
-msgid "Whole packages transfers"
-msgstr "Transferencias de paquetes completos"
-
-#: ../../inventory/settings/products/packages.rst:62
+#: ../../inventory/settings/products/strategies.rst:60
 msgid ""
-"If you are using several locations and/or warehouses, it is possible to "
-"transfer packages with its contents."
+"The Make to Order configuration is available on your product form through "
+"your :menuselection:`Inventory --> Inventory control --> Products` (or any "
+"other module where products are available)."
 msgstr ""
-"Si esta utilizando varias ubicaciones y/o bodegas, es posible transferir "
-"paquetes con sus contenidos."
 
-#: ../../inventory/settings/products/packages.rst:68
-msgid ""
-"You need to configure the **Operation Type** to allow moving packages. Go to"
-" :menuselection:`Configuration --> Operations Types`. Tick **Allow moving "
-"packs**:"
+#: ../../inventory/settings/products/strategies.rst:64
+msgid "On the product form, under Inventory, click on \"Make To Order\"."
 msgstr ""
-"Debe configurar el **Tipo de Operación** para permitir el movimiento de "
-"paquetes. Vaya a :menuselection:`Configuración --> Tipos de Operaciones`. "
-"Marque **Permitir movimiento de paquetes**: "
-
-#: ../../inventory/settings/products/packages.rst:75
-msgid "Transfer packages"
-msgstr "Transferir paquetes"
-
-#: ../../inventory/settings/products/packages.rst:77
-msgid ""
-"Create a transfer order. Choose the source and the destination locations, "
-"then click on **Mark as todo**. Do not put anything under the **Initial "
-"Demand** tab."
-msgstr ""
-"Cree una órden de transferencia. Elija las ubicaciones de origen y destino, "
-"luego de clic en **Marcar como realizado**. No ubique nada bajo la pestaña "
-"**Demanda Inicial**."
-
-#: ../../inventory/settings/products/packages.rst:84
-msgid ""
-"In the Operation tab, click on **Add an item** under the **Package To Move**"
-" section."
-msgstr ""
-"En la pestaña de Operaciones, de clic en **Agregar un ítem** bajo la sección"
-" **Paquete a Mover**."
-
-#: ../../inventory/settings/products/packages.rst:87
-msgid "Tick the **Done** checkbox to confirm the move of the package :"
-msgstr ""
-"Marque la casilla de verificación **Realizado** para confirmar el movimiento"
-" del paquete :"
-
-#: ../../inventory/settings/products/packages.rst:92
-msgid "When it is finished, click on **Validate**."
-msgstr "Cuando esté finalizado, de clic en **Validar**."
-
-#: ../../inventory/settings/products/packages.rst:95
-msgid "Packages traceability"
-msgstr "Trazabilidad de paquetes"
-
-#: ../../inventory/settings/products/packages.rst:97
-msgid ""
-"To trace a package or check its content, go to :menuselection:`Inventory "
-"Control --> Packages`."
-msgstr ""
-"Para rastrear un paquete o revisar su contenido, vaya a "
-":menuselection:`Control de Inventario --> Paquetes`."
-
-#: ../../inventory/settings/products/packages.rst:103
-msgid "Click on **Package Transfers** to see all its moves."
-msgstr ""
-"De clic en **Transferencias de Paquetes** para ver todos sus movimientos."
-
-#: ../../inventory/settings/products/packages.rst:106
-#: ../../inventory/settings/products/usage.rst:70
-msgid ":doc:`../../overview/start/setup`"
-msgstr ":doc:`../../resumen/inicio/configurar`"
-
-#: ../../inventory/settings/products/packages.rst:107
-msgid ":doc:`usage`"
-msgstr ":doc:`uso`"
-
-#: ../../inventory/settings/products/packages.rst:108
-#: ../../inventory/settings/products/usage.rst:71
-msgid ":doc:`uom`"
-msgstr ":doc:`uom`"
 
 #: ../../inventory/settings/products/uom.rst:3
 msgid "How to use different units of measure?"
@@ -7909,6 +7871,14 @@ msgstr ""
 msgid "Packages"
 msgstr "Paquetes"
 
+#: ../../inventory/settings/products/usage.rst:31
+msgid ""
+"The package is the physical container in which you put one or several "
+"product."
+msgstr ""
+"El paquete es el contenedor físico en el cual Ud. coloca uno o varios "
+"productos."
+
 #: ../../inventory/settings/products/usage.rst:38
 msgid "Packaging"
 msgstr "Empaquetado"
@@ -7975,9 +7945,13 @@ msgstr ""
 "Cuando vende varias bandejas, podría envolver todas las bandejas en una "
 "``caja`` o en un ``plástico`` envoltorio. Esto es el **paquete**."
 
-#: ../../inventory/settings/products/usage.rst:72
-msgid ":doc:`packages`"
-msgstr ":doc:`paquetes`"
+#: ../../inventory/settings/products/usage.rst:70
+msgid ":doc:`../../overview/start/setup`"
+msgstr ":doc:`../../resumen/inicio/configurar`"
+
+#: ../../inventory/settings/products/usage.rst:71
+msgid ":doc:`uom`"
+msgstr ":doc:`uom`"
 
 #: ../../inventory/settings/products/variants.rst:3
 msgid "Using product variants"
@@ -9082,6 +9056,10 @@ msgstr ""
 "--> Configuración --> Ajustes`. Localice la sección **Paquetes** y marque "
 "**Registrar paquetes usados en empaque: pallets, cajas,...**"
 
+#: ../../inventory/shipping/operation/multipack.rst:23
+msgid "Click on **Apply** when you are done."
+msgstr "De clic en **Aplicar** cuando finalice."
+
 #: ../../inventory/shipping/operation/multipack.rst:29
 #: ../../inventory/shipping/setup/delivery_method.rst:77
 #: ../../inventory/shipping/setup/third_party_shipper.rst:110
@@ -9107,6 +9085,26 @@ msgstr ""
 #: ../../inventory/shipping/operation/multipack.rst:48
 msgid "From here, you can split your delivery into multiple packages."
 msgstr "Desde aquí, puede dividir su entrega en múltiples paquetes."
+
+#: ../../inventory/shipping/operation/multipack.rst:50
+msgid ""
+"Choose the quantity you want to put in the first pack in the **Done** "
+"column, then click on the link **Put in Pack**."
+msgstr ""
+"Elija la cantidad que desea poner en el primer paquete en la columna "
+"**Realizado**, luego de clic en el vinculo **Ponerlo en Paquete**."
+
+#: ../../inventory/shipping/operation/multipack.rst:56
+msgid "It will automatically create a pack with the requested quantity."
+msgstr "Automáticamente creará un paquete con la cantidad requerida."
+
+#: ../../inventory/shipping/operation/multipack.rst:58
+msgid "Do the same steps for the other pieces you want to pack in."
+msgstr "Realice los mismos pasos para las otras piezas que desea empacar."
+
+#: ../../inventory/shipping/operation/multipack.rst:63
+msgid "Click on **Validate** when you are done."
+msgstr "De clic en **Validar** una vez que este listo."
 
 #: ../../inventory/shipping/operation/multipack.rst:66
 msgid "Multi-packages with a 3rd party-shipper"

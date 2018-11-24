@@ -1,6 +1,6 @@
-======================================
-How to create a Request for Quotation?
-======================================
+==============================
+Create a Request for Quotation
+==============================
 
 A Request for Quotation (RfQ) is used when you plan to purchase some
 products and you would like to receive a quote for those products. In
@@ -8,9 +8,6 @@ Odoo, the Request for Quotation is used to send your list of desired
 products to your supplier. Once your supplier has answered your request,
 you can choose to go ahead with the offer and purchase or to turn down
 the offer.
-
-For more information on best uses, please read the chapter 
-:doc:`../../overview/process/difference`
 
 Configuration
 =============
@@ -70,7 +67,3 @@ right corner of the order will show 1 Shipment and 0 Invoice.
 
 .. image:: ./media/image10.png
 	:align: center
-
-.. seealso:: 
-
-	:doc:`../../overview/process/from_po_to_invoice`

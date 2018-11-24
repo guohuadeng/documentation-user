@@ -16,7 +16,7 @@ with the barcode scanner.
 .. note::
     Print this document to be able to use your barcode scanner to perform more actions.
     
-    :ref:`Document:` |download_barcode|
+    Document: |download_barcode|
 
 
 Set products barcodes
@@ -30,8 +30,10 @@ sure that your products are encoded in Odoo along with their barcodes.
 If this is not already done, you can fill in the products barcodes
 through a handy interface. Go to 
 :menuselection:`Inventory --> Configuration --> Settings`
-and click the **Configure Product Barcodes** button. This
-interface can also be accessed via the planner.
+and click :menuselection:`Operations --> Barcode Scanner`.
+Click Save, and go back into the previous screen to click Configure
+Product Barcodes.  This interface can also be accessed via the planner.
+
 
 .. note::
     Product variants: be careful to add barcodes directly on the

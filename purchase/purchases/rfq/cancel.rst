@@ -1,6 +1,6 @@
-================================
-How to cancel a purchase order?
-================================
+=======================
+Cancel a purchase order
+=======================
 
 Due to misunderstandings, human errors or change of plans, it is
 sometimes necessary to cancel purchase orders sent to suppliers. Odoo
@@ -20,11 +20,6 @@ The first step to create a **Purchase Order** is to create a **Request for
 Quotation (RFQ)** from the menu 
 :menuselection:`Purchases --> Purchase --> Requests for quotation`. 
 Confirm your RFQ to have a confirmed purchase order
-
-.. note:: 
-    To learn more about the purchase order process, 
-    read the documentation page 
-    :doc:`../../overview/process/from_po_to_invoice`
 
 Cancel your Purchase Order
 ==========================

@@ -1,6 +1,6 @@
-=======================================================
-How to control product received? (entirely & partially)
-=======================================================
+===============================================
+Control product received (entirely & partially)
+===============================================
 
 The **Purchase** app allows you to manage your purchase orders, to control
 products to receive and to control supplier bills.
@@ -62,10 +62,6 @@ will probably include the **Vendor Reference** of his sale order).
 
 .. image:: media/reception03.png
     :align: center
-
-.. note:: 
-    See the documentation page :doc:`../../overview/process/from_po_to_invoice` 
-    for a full overview of the purchase process.
 
 Receive Products
 ----------------
